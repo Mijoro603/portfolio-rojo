@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  axios.get('projects.json')
+  axios.get('./data/projects.json')
     .then(function (response) {
       const projets = response.data;
       const projetsContainer = $('#projets');
@@ -12,7 +12,7 @@ $(document).ready(function () {
 
       projets.forEach(function (projet) {
         const column = $(`
-          <div class="column is-one-third">
+          <div class="column is-half">
             <article class="box" itemscope itemtype="http://schema.org/CreativeWork">
               <h3 class="title is-4" itemprop="headline">${projet.titre}</h3>
               <p itemprop="description">${projet.description}</p>
@@ -27,6 +27,24 @@ $(document).ready(function () {
 
       section.append(row);
       projetsContainer.append(section);
+      
+		// Apparition douce après injection
+		row.find('.column').each(function (i) {
+		$(this).delay(200 * i).fadeIn(500);
+		});
+		
+		// Animation titre principal
+		$('h1.title').hide().slideDown(800);
+		
+		// Hover sur les boutons
+		$('a.button').hover(
+		function () {
+    		$(this).addClass('is-primary');
+		},
+		function () {
+    		$(this).removeClass('is-primary');
+		}
+		);
     })
     .catch(function (error) {
       console.error("Erreur lors du chargement du fichier JSON :", error);

@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio Rojo</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Rojo – Accueil</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Bienvenue sur le portfolio de Rojo. Découvrez ses projets, réalisations et compétences." />
+  <meta name="author" content="Rojo" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
 </head>
-<body>
-  <section class="section">
+<body class="home">
+
+  <section class="section" aria-label="Accueil">
     <div class="container">
-      <h1 class="title">Bienvenue sur mon portfolio</h1>
+      <h1 class="title is-2">Bienvenue sur mon portfolio</h1>
       <div id="projets" class="columns is-multiline"></div>
     </div>
   </section>
 
+  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.8.2/dist/axios.min.js"></script>
-  <script src="app.js"></script>
+  <script src="./js/home.js" defer></script>
 </body>
 </html>

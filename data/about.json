@@ -1,0 +1,14 @@
+{
+  "parcoursAcademique": "Licence en Informatique à l'Université XYZ (2020–2023)",
+  "competencesAcademique": [
+    "Programmation en C, Java, Python",
+    "Structures de données",
+    "Développement web"
+  ],
+  "parcoursPro": "Stage chez TechCorp en tant que développeur front-end",
+  "competencesPro": [
+    "Maîtrise de Git",
+    "Travail en équipe Agile",
+    "Optimisation d’interfaces utilisateurs"
+  ]
+}

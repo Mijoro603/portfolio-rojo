@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Rojo – Contact</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Contactez Rojo via ce formulaire pour toute demande ou collaboration." />
+  <meta name="author" content="Rojo" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
+<body class="contact">
+
+  <section class="section" aria-labelledby="contact-title">
+    <div class="container">
+      <h1 id="contact-title" class="title is-2">Contactez-moi</h1>
+
+      <form id="contactForm">
+        <div class="field">
+          <label class="label" for="nom">Nom</label>
+          <div class="control">
+            <input class="input" type="text" id="nom" name="nom" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="email">Email</label>
+          <div class="control">
+            <input class="input" type="email" id="email" name="email" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="message">Message</label>
+          <div class="control">
+            <textarea class="textarea" id="message" name="message" required></textarea>
+          </div>
+        </div>
+
+        <div class="control">
+          <button class="button is-link" type="submit">Envoyer</button>
+        </div>
+      </form>
+
+      <div class="mt-5">
+        <p>Retrouvez-moi aussi sur :</p>
+        <a href="https://github.com/Mjoro603" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://x.com/rajaonasyrojo" target="_blank" rel="noopener noreferrer">X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.8.2/dist/axios.min.js"></script>
+
+  <!-- Script d'envoi via service -->
+  <script src="./contact.js"></script>
+</body>
+</html>
