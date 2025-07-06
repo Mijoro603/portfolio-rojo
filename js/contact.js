@@ -19,16 +19,18 @@ $(document).ready(function () {
     };
 
     // 🔁 Remplace cette URL par TON lien Formspree (après création)
-    const endpoint = "https://formspree.io/f/abcxyz";
+    const endpoint = "https://formspree.io/f/xyzjalaw";
 
     axios.post(endpoint, data)
         .then(() => {
-        alert("Votre message a bien été envoyé !");
-        $('#contactForm')[0].reset();
+        	alert("Votre message a bien été envoyé !");
+        	$('#contactForm')[0].reset();
+        	/* status.innerHTML = "Thanks for your submission!";
+    		form.reset() */
         })
         .catch(error => {
-        console.error("Erreur Formspree :", error);
-        alert("Une erreur est survenue lors de l’envoi. Veuillez réessayer plus tard.");
+        	console.error("Erreur Formspree :", error);
+        	alert("Une erreur est survenue lors de l’envoi. Veuillez réessayer plus tard.");
         });
     });
 });
