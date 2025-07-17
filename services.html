@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>À propos – Rojo Portfolio</title>
+  <title>Portfolio Rojo – Services</title>
 
   <!-- SEO -->
-  <meta name="description" content="Découvrez le parcours académique et professionnel de Rojo, ainsi que ses compétences." />
+  <meta name="description" content="Services sur le portfolio de Rojo. Développement web, Conception BDD." />
   <meta name="author" content="Rojo" />
   <!-- Format .ico (supporté par la plupart des navigateurs de bureau) -->
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
@@ -14,12 +14,12 @@
   <!-- Format .png (utile pour les navigateurs modernes ou mobiles) -->
   <link rel="icon" type="image/png" href="./favicon.png" />
 
-  <!-- Styles & Libs -->
+  <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
 
 </head>
-<body class="about">
+<body class="home">
 
   <div class="container">
     <nav class="navbar is-white" role="navigation" aria-label="main navigation">
@@ -45,56 +45,17 @@
     </nav>
   </div>
 
-  <!-- Contenu principal -->
   <section class="section">
     <div class="container">
-      <h1 class="title has-text-centered">À propos de moi</h1>
-
-      <div id="profil" class="mb-6"></div>
-
-      <div class="columns is-multiline">
-        <div class="column is-half" id="formation"></div>
-        <div class="column is-half" id="objectif"></div>
-      </div>
-
-      <hr>
-
-      <div class="columns is-multiline">
-        <div class="column is-half" id="experience"></div>
-        <div class="column is-half" id="localisation"></div>
-      </div>
-
-      <hr>
-
-      <div class="box" id="competences">
-        <h2 class="subtitle">Compétences techniques</h2>
-        <div class="columns is-multiline">
-          <div class="column is-one-quarter">
-            <h3 class="has-text-weight-semibold">Frontend</h3>
-            <ul id="frontend"></ul>
-          </div>
-          <div class="column is-one-quarter">
-            <h3 class="has-text-weight-semibold">Backend</h3>
-            <ul id="backend"></ul>
-          </div>
-          <div class="column is-one-quarter">
-            <h3 class="has-text-weight-semibold">Bases de données</h3>
-            <ul id="bdd"></ul>
-          </div>
-          <div class="column is-one-quarter">
-            <h3 class="has-text-weight-semibold">Autres</h3>
-            <ul id="autres"></ul>
-          </div>
-        </div>
-      </div>
-
+      <h1 class="title">Mes Services</h1>
+      <div id="services" class="columns is-multiline"></div>
     </div>
   </section>
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.8.2/dist/axios.min.js"></script>
-  <script src="./js/about.js" defer></script>
+  <script src="./js/services.js" defer></script>
   <script src="./js/app.js" defer></script>
 </body>
 </html>

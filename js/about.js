@@ -1,39 +1,41 @@
 $(document).ready(function () {
-  const DATA_PATH = './data/about.json';
-
-  axios.get(DATA_PATH)
+  axios.get('./data/about.json')
     .then(response => {
       const data = response.data;
 
-      $('#parcoursAcademique').html(`
-        <header>
-          <h2 class="subtitle is-4">🎓 Parcours académique</h2>
-        </header>
-        <p>${data.parcoursAcademique}</p>
+      // Profil résumé
+      $('#profil').html(`<p>${data.profil}</p><p class="mt-3"><strong>Poste :</strong> ${data.poste} | ${data.secteur}</p>`);
+
+      // Formation
+      $('#formation').html(`<h2 class="subtitle">Formation</h2><p>${data.formation}</p>`);
+
+      // Objectif
+      $('#objectif').html(`<h2 class="subtitle">Objectif professionnel</h2><p>${data.objectif}</p>`);
+
+      // Expérience
+      let xpHTML = '<h2 class="subtitle">Expérience professionnelle</h2>';
+      data.experience.forEach(exp => {
+        xpHTML += `<h3 class="has-text-weight-bold">${exp.poste}</h3><p>${exp.organisation}</p><ul>`;
+        exp.missions.forEach(m => xpHTML += `<li>${m}</li>`);
+        xpHTML += '</ul>';
+      });
+      $('#experience').html(xpHTML);
+
+      // Localisation
+      $('#localisation').html(`
+        <h2 class="subtitle">Localisation</h2>
+        <p>${data.localisation.ville}, ${data.localisation.région}, ${data.localisation.pays}</p>
       `);
 
-      $('#competencesAcademique').html(`
-        <header>
-          <h2 class="subtitle is-4">🧠 Compétences académiques</h2>
-        </header>
-        <ul>${data.competencesAcademique.map(c => `<li>${c}</li>`).join('')}</ul>
-      `);
-
-      $('#parcoursPro').html(`
-        <header>
-          <h2 class="subtitle is-4">💼 Parcours professionnel</h2>
-        </header>
-        <p>${data.parcoursPro}</p>
-      `);
-
-      $('#competencesPro').html(`
-        <header>
-          <h2 class="subtitle is-4">🔧 Compétences acquises en pro</h2>
-        </header>
-        <ul>${data.competencesPro.map(c => `<li>${c}</li>`).join('')}</ul>
-      `);
+      // Compétences
+      const keys = ['frontend', 'backend', 'bdd', 'autres'];
+      keys.forEach(cat => {
+        data.competences[cat].forEach(c => {
+          $(`#${cat}`).append(`<li>${c}</li>`);
+        });
+      });
     })
     .catch(error => {
-      console.error("Erreur de chargement du fichier JSON :", error);
+      console.error("Erreur lors du chargement du fichier apropos.json", error);
     });
 });

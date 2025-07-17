@@ -1,14 +1,30 @@
 {
-  "parcoursAcademique": "Licence en Informatique à l'Université XYZ (2020–2023)",
-  "competencesAcademique": [
-    "Programmation en C, Java, Python",
-    "Structures de données",
-    "Développement web"
+  "nom": "Portfolio Rojo",
+  "poste": "WEBMASTER",
+  "secteur": "Technologies de l'information",
+  "localisation": {
+    "ville": "Antananarivo",
+    "région": "Analamanga",
+    "pays": "Madagascar"
+  },
+  "profil": "Diplômé de Master II en Génie Logiciel et Base de Données de l'Université de Fianarantsoa, j’accompagne les entreprises dans la conception, l’optimisation et la sécurisation de leurs solutions digitales.",
+  "experience": [
+    {
+      "poste": "Responsable informatique",
+      "organisation": "à Madagascar",
+      "missions": [
+        "Gestion des datacenters",
+        "Optimisation d’infrastructure numérique",
+        "Transformation digitale stratégique"
+      ]
+    }
   ],
-  "parcoursPro": "Stage chez TechCorp en tant que développeur front-end",
-  "competencesPro": [
-    "Maîtrise de Git",
-    "Travail en équipe Agile",
-    "Optimisation d’interfaces utilisateurs"
-  ]
+  "formation": "Université de Fianarantsoa – Génie Logiciel et Base de Données",
+  "competences": {
+    "frontend": ["HTML5", "CSS3", "JS", "Bootstrap", "SASS (SCSS)", "Bulma", "jQuery", "AngularJs", "Vue.js", "Angular", "React"],
+    "backend": ["PHP", "SQL", "JSX", "PYTHON", "Codeigniter", "Laravel", "Symfony", "NodeJs", "ExpressJs", "Django", "ODOO", "Supabase"],
+    "bdd": ["MySQL", "SQLite", "PostgreSQL", "Oracle", "MongoDB"],
+    "autres": ["Git", "Docker", "Trello", "Github", "UML", "SCRUM"]
+  },
+  "objectif": "Transformer des idées en solutions digitales innovantes, robustes et durables."
 }

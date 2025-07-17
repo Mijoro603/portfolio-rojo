@@ -1,0 +1,22 @@
+[
+  {
+    "titre": "Conception web",
+    "description": "Création de sites modernes et responsives, adaptés à vos besoins."
+  },
+  {
+    "titre": "Développement d'applications",
+    "description": "Solutions web personnalisées, frontend et backend inclus."
+  },
+  {
+    "titre": "UX/UI Design",
+    "description": "Design ergonomique et expérience utilisateur centrée sur vos clients."
+  },
+  {
+    "titre": "SEO & Marketing digital",
+    "description": "Optimisation pour moteurs de recherche et stratégie de visibilité."
+  },
+  {
+    "titre": "Bases de données",
+    "description": "Modélisation, optimisation et maintenance de bases robustes."
+  }
+]

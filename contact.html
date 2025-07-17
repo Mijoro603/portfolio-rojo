@@ -38,6 +38,7 @@
         <div class="navbar-end">
           <a href="index.html" class="navbar-item">Accueil</a>
           <a href="about.html" class="navbar-item">À propos</a>
+          <a href="services.html" class="navbar-item">Services</a>
           <a href="contact.html" class="navbar-item">Contact</a>
         </div>
       </div>
@@ -47,39 +48,55 @@
   <section class="section" aria-labelledby="contact-title">
     <div class="container">
       <h1 id="contact-title" class="title is-2">Contactez-moi</h1>
-
-      <form id="contactForm">
-        <div class="field">
-          <label class="label" for="nom">Nom ou téléphone</label>
-          <div class="control">
-            <input class="input" type="text" id="nom" name="nom" required />
-          </div>
-        </div>
-
-        <div class="field">
-          <label class="label" for="email">Email</label>
-          <div class="control">
-            <input class="input" type="email" id="email" name="email" required />
-          </div>
-        </div>
-
-        <div class="field">
-          <label class="label" for="message">Message</label>
-          <div class="control">
-            <textarea class="textarea" id="message" name="message" required></textarea>
-          </div>
-        </div>
-
-        <div class="control">
-          <button class="button is-link" type="submit">Envoyer</button>
-        </div>
-      </form>
-
-      <div class="mt-5">
+      
+      <div class="columns"><div class="column is-half m-6">
+      	<p>
+      		<ul>
+      			<li><strong>E-mail :</strong> razosalama12050@gmail.com</li>
+      			<li><strong>Téléphone :</strong> +261389738352</li>
+      			<li><strong>Ville :</strong> Antananarivo</li>
+      			<li><strong>Région :</strong> Analamanga</li>
+      			<li><strong>Pays :</strong> Madagascar</li>
+      			<li><strong>Expérience :</strong> plus de 7 ans</li>
+      		</ul>
+      	</p>
         <p>Retrouvez-moi aussi sur :</p>
         <a href="https://github.com/Mjoro603" target="_blank" rel="noopener noreferrer">GitHub</a> |
         <a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
         <a href="https://x.com/rajaonasyrojo" target="_blank" rel="noopener noreferrer">X</a>
+      </div>
+      
+      <div class="column">
+      
+      <h2 class="subtitle is-4">Demande de service et autres</h2>
+      <p class="is-size-7 mb-5"><strong>NB: </strong>Pour envoyer par ici, il faut que vous êtes connecté avec votre adresse email</p>
+      <form id="contactForm">
+        <div class="field">
+          <label class="label" for="nom">Nom ou téléphone <strong class="has-text-danger">*</strong></label>
+          <div class="control">
+            <input class="input is-small" type="text" id="nom" name="nom" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="email">Email <strong class="has-text-danger">*</strong></label>
+          <div class="control">
+            <input class="input is-small" type="email" id="email" name="email" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="message">Message <strong class="has-text-danger">*</strong></label>
+          <div class="control">
+            <textarea class="textarea is-small" id="message" name="message" required></textarea>
+          </div>
+        </div>
+
+        <div class="control">
+          <button class="button is-link is-small" type="submit">Envoyer</button>
+        </div>
+      </form></div>
+
       </div>
     </div>
   </section>
