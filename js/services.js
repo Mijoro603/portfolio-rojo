@@ -6,7 +6,7 @@ $(document).ready(function () {
         $('#services').append(`
           <div class="column is-one-third">
             <div class="box">
-              <h2 class="subtitle is-4">${service.titre}</h2>
+              <h2 class="subtitle is-4 has-text-weight-semibold">${service.titre}</h2>
               <p>${service.description}</p>
             </div>
           </div>

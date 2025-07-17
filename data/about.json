@@ -13,18 +13,18 @@
       "poste": "Développeur FullStack web assisté par IA",
       "organisation": "à Betsizaraina Avaradrano Madagascar",
       "missions": [
-        "- Développement d'un application web dont le nom de projet est MAINTSO VOLA",
-        "- Frontend: React/Vite, TS/TSX et SHADCN/tailwind",
-        "- Backend: Supabase"
+        "Développement d'un application web dont le nom de projet est MAINTSO VOLA",
+        "Frontend: React/Vite, TS/TSX et SHADCN/tailwind",
+        "Backend: Supabase"
       ]
     },
     {
       "poste": "Responsable informatique",
       "organisation": "à 67 ha Antananarivo Madagascar",
       "missions": [
-        "- Gestion des datacenters",
-        "- Optimisation d’infrastructure numérique",
-        "- Transformation digitale stratégique"
+        "Gestion des datacenters",
+        "Optimisation d’infrastructure numérique",
+        "Transformation digitale stratégique"
       ]
     }
   ],

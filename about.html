@@ -16,6 +16,7 @@
 
   <!-- Styles & Libs -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css" />
 
 </head>
@@ -36,10 +37,10 @@
 
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-end">
-          <a href="index.html" class="navbar-item">Accueil</a>
-          <a href="about.html" class="navbar-item">À propos</a>
-          <a href="services.html" class="navbar-item">Services</a>
-          <a href="contact.html" class="navbar-item">Contact</a>
+          <a href="index.html" class="navbar-item"><span class="icon"><i class="fas fa-house-chimney"></i></span>&nbsp;Accueil</a>
+          <a href="about.html" class="navbar-item"><span class="icon"><i class="fas fa-id-badge"></i></span>&nbsp;À propos</a>
+          <a href="services.html" class="navbar-item"><span class="icon"><i class="fas fa-laptop-code"></i></span>&nbsp;Services</a>
+          <a href="contact.html" class="navbar-item"><span class="icon"><i class="fas fa-phone"></i></span>&nbsp;Contact</a>
         </div>
       </div>
     </nav>
@@ -60,28 +61,28 @@
       <hr>
 
       <div class="columns is-multiline">
-        <div class="column is-half" id="experience"></div>
-        <div class="column is-half" id="localisation"></div>
+        <div class="column is-offset-*"></div>
+        <div class="column is-10" id="experience"></div>
       </div>
 
       <hr>
 
       <div class="box" id="competences">
-        <h2 class="subtitle">Compétences techniques</h2>
+        <h2 class="subtitle is-size-3 is-italic has-text-weight-bold has-text-centered">Compétences techniques</h2>
         <div class="columns is-multiline">
-          <div class="column is-one-quarter">
+          <div class="column is-half content is-normal">
             <h3 class="has-text-weight-semibold">Frontend</h3>
             <ul id="frontend"></ul>
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-half content is-medium">
             <h3 class="has-text-weight-semibold">Backend</h3>
             <ul id="backend"></ul>
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-half content is-large">
             <h3 class="has-text-weight-semibold">Bases de données</h3>
             <ul id="bdd"></ul>
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-half content is-small">
             <h3 class="has-text-weight-semibold">Autres</h3>
             <ul id="autres"></ul>
           </div>

@@ -49,3 +49,43 @@ body {
     display: none !important;
   }
 }
+
+.home, .about, .service, .contact {
+  background-color: #f9f9f9;
+  color: #2f2f2f;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+a.navbar-item.is-active,
+a.navbar-item:hover {
+  background-color: #e6f0ff;
+  color: #0057a3;
+}
+
+.navbar {
+  padding: 0 .75rem !important;
+  border-bottom: 1px solid #ddd;
+}
+
+h1.title {
+  color: #004080;
+}
+
+.button.is-link {
+  background-color: #3273dc;
+  border-color: #3273dc;
+  transition: 0.3s ease-in-out;
+}
+
+.button.is-link:hover {
+  background-color: #255ec4;
+}
+
+.box {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
