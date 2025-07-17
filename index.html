@@ -48,7 +48,38 @@
   <section class="section" aria-label="Accueil">
     <div class="container">
       <h1 class="title is-2">Bienvenue sur mon portfolio</h1>
+      
+		<div class="tabs is-right search">
+			<ul><li class="has-text-weight-bold">
+				<span>Rechercher</span>
+			</li></ul>
+		</div>
+		
+        <!-- Barre de recherche -->
+        <div class="field has-addons" style="display:none;">
+            <div class="control is-expanded">
+                <input class="input is-small" type="text" id="searchInput" placeholder="Rechercher des projets ...">
+            </div>
+            <div class="control">
+                <button class="button is-info is-responsive is-small" id="searchButton">
+                    <span>Rechercher</span>
+                </button>
+            </div>
+            <div class="control">
+                <button class="button is-light is-responsive is-small" id="resetSearch">
+                    <span>Actualiser</span>
+                </button>
+            </div>
+        </div>
+      
       <div id="projets" class="columns is-multiline"></div>
+        <nav class="pagination is-centered is-rounded is-small" role="navigation" aria-label="pagination">
+            <a class="pagination-previous" id="prevPage">Précédent</a>
+            <a class="pagination-next" id="nextPage">Suivant</a>
+            <ul class="pagination-list" id="paginationNumbers">
+                <!-- Les numéros de page seront générés ici -->
+            </ul>
+        </nav>
     </div>
   </section>
 

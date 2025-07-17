@@ -7,19 +7,28 @@
     "région": "Analamanga",
     "pays": "Madagascar"
   },
-  "profil": "Diplômé de Master II en Génie Logiciel et Base de Données de l'Université de Fianarantsoa, j’accompagne les entreprises dans la conception, l’optimisation et la sécurisation de leurs solutions digitales.",
+  "profil": "Diplômé de Master II en Génie Logiciel et Base de Données à l'ENI de l'Université de Fianarantsoa, j’accompagne les entreprises dans la conception, l’optimisation et la sécurisation de leurs solutions digitales.",
   "experience": [
+  	{
+      "poste": "Développeur FullStack web assisté par IA",
+      "organisation": "à Betsizaraina Avaradrano Madagascar",
+      "missions": [
+        "- Développement d'un application web dont le nom de projet est MAINTSO VOLA",
+        "- Frontend: React/Vite, TS/TSX et SHADCN/tailwind",
+        "- Backend: Supabase"
+      ]
+    },
     {
       "poste": "Responsable informatique",
-      "organisation": "à Madagascar",
+      "organisation": "à 67 ha Antananarivo Madagascar",
       "missions": [
-        "Gestion des datacenters",
-        "Optimisation d’infrastructure numérique",
-        "Transformation digitale stratégique"
+        "- Gestion des datacenters",
+        "- Optimisation d’infrastructure numérique",
+        "- Transformation digitale stratégique"
       ]
     }
   ],
-  "formation": "Université de Fianarantsoa – Génie Logiciel et Base de Données",
+  "formation": "Génie Logiciel et Base de Données à l'Ecole Nationale d'Informatique de l'Université de Fianarantsoa",
   "competences": {
     "frontend": ["HTML5", "CSS3", "JS", "Bootstrap", "SASS (SCSS)", "Bulma", "jQuery", "AngularJs", "Vue.js", "Angular", "React"],
     "backend": ["PHP", "SQL", "JSX", "PYTHON", "Codeigniter", "Laravel", "Symfony", "NodeJs", "ExpressJs", "Django", "ODOO", "Supabase"],
