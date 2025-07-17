@@ -51,38 +51,61 @@ body {
 }
 
 .home, .about, .service, .contact {
-  background-color: #f9f9f9;
-  color: #2f2f2f;
+  background-color: #f0faff !important;
+  color: #2d2d2d !important;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
 }
 
 a.navbar-item.is-active,
 a.navbar-item:hover {
-  background-color: #e6f0ff;
-  color: #0057a3;
+  background-color: #f0faff!important;
+  color: #0057a3 !important;
 }
 
 .navbar {
   padding: 0 .75rem !important;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #00aaff !important;
 }
 
 h1.title {
-  color: #004080;
+  color: #004080 !important;
+  text-transform: uppercase !important;
+  border-bottom: 2px solid #0057a3;
 }
 
-.button.is-link {
-  background-color: #3273dc;
-  border-color: #3273dc;
+.button.is-link, .button.is-info {
+  background-color: #0057a3 !important;
+  border-color: #004080 !important;
   transition: 0.3s ease-in-out;
 }
 
-.button.is-link:hover {
-  background-color: #255ec4;
+.button.is-link:hover, .button.is-info:hover {
+  background-color: #004080 !important;
 }
 
-.box {
+.about p:not(:first-child) {
+  border-right: 2px solid #4b0082;
+  border-bottom: 2px solid #4b0082;
+}
+
+.about .box {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-top: 3px solid #004080;
+  border-right: 5px solid #004080;
+  border-bottom: 5px solid #004080;
+  border-left: 3px solid #004080;
+  transition: transform 0.2s;
+}
+
+.service p {
+  border-right: 2px solid #004080;
+  border-bottom: 2px solid #004080;
+}
+
+.service .box {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-top: 3px solid #00e0c6;
+  border-left: 5px solid #00e0c6;
   transition: transform 0.2s;
 }
 
