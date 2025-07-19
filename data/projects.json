@@ -1,62 +1,362 @@
 [
   {
-  	"id": "mon-premier-projet-1",
-    "titre": "Mon premier projet",
-    "description": "Une appli simple faite avec HTML et CSS",
-    "details": "Nulla pellentesque, nunc nec blandit fringilla, justo enim sodales justo, ut tincidunt dui felis vitae elit. Morbi ante dolor, vehicula pulvinar aliquam vitae, volutpat eu tortor. Ut at justo augue. Morbi ut purus id enim accumsan lobortis nec non diam. Vivamus pellentesque mi nec lacinia accumsan. Suspendisse id enim quis augue elementum varius. Proin a purus non risus ornare luctus. Duis venenatis facilisis lectus in faucibus. Etiam et justo tristique, feugiat sem eget, faucibus mi. Praesent malesuada dapibus felis nec dictum. Integer vulputate ultricies justo, ut dapibus est consectetur non. Morbi justo est, auctor eget lorem id, egestas porttitor nulla."
+  	"id": "mon-a0-projet-Norme-2011",
+    "titre": "Site E-commerce des appareils électroniques",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript — Réalisé en binôme lors de ma première année à l’ENI (2011)",
+    "details": "J’ai participé à la création d’un site e-commerce simple et fonctionnel dédié à la vente d’appareils électroniques. Le projet couvrait la conception d’une interface utilisateur intuitive, la mise en place de fiches produits, et des interactions dynamiques en JavaScript. Ce travail en duo m’a permis de renforcer mes compétences en front-end, tout en développant une approche collaborative du développement ."
   },
   {
-  	"id": "mon-premier-projet-2",
-    "titre": "Une appli en jQuery",
-    "description": "Une app utilisant jQuery et Bulma",
-    "details": "Aliquam erat volutpat. Mauris at bibendum lacus. Pellentesque eu ullamcorper sem, non scelerisque libero. Morbi pharetra rhoncus erat, at efficitur turpis ornare quis. Cras libero diam, convallis at magna nec, tempus cursus nibh. Praesent fringilla ipsum ut rhoncus vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  	"id": "mon-a1-projet-Norme-2011",
+    "titre": "Logiciel de Gestion des Notes — CUFP, Fianarantsoa",
+    "description": "Technologie utilisée : langage C — Réalisé en équipe de trois lors de ma première année à l’ENI (2011)",
+    "details": "Ce projet consistait à développer un logiciel local permettant de gérer les notes d’étudiants. Nous avons conçu un programme capable d’enregistrer, modifier et afficher les notes, tout en respectant des critères de clarté et de fiabilité. J’ai joué un rôle central dans la structuration du code, la gestion des entrées utilisateur et la logique de calcul des moyennes. Ce projet m’a donné mes premières bases en algorithmie et en travail d’équipe ."
   },
   {
-  	"id": "mon-premier-projet-3",
-    "titre": "Mon premier projet",
-    "description": "Une appli simple faite avec HTML et CSS",
-    "details": "Mauris eu nisl nec libero fermentum condimentum. Aliquam ac justo mi. Nullam lectus massa, suscipit vel imperdiet ut, pellentesque a nisi. Morbi tincidunt orci eget ex sagittis, bibendum dapibus nibh tincidunt. Duis eros magna, eleifend a risus ac, imperdiet dictum tellus. Nulla sodales ex pharetra tortor mollis scelerisque. Suspendisse potenti. Sed sollicitudin pellentesque neque et maximus. Donec euismod tellus erat, vitae elementum libero ornare id. Duis mi mi, varius id tempus vitae, aliquam pulvinar risus. Donec non sem vitae est pharetra tristique. Sed ac orci ipsum. Suspendisse potenti."
+  	"id": "mon-a3-projet-Norme-2012",
+    "titre": "Application web de Gestion des stocks",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript, PHP, MySQL — Outils : WAMP, phpMyAdmin, NetBeans — Réalisé en binôme — 2e année à l’ENI (2012)",
+    "details": "Ce projet avait pour but de créer une application web simple et fonctionnelle permettant de gérer les stocks d’un petit commerce. J’ai travaillé à la fois sur le front-end (interface utilisateur intuitive) et sur le back-end (gestion des produits, mises à jour des quantités, alertes de seuils). Grâce à une base de données MySQL bien structurée et une logique serveur claire en PHP, nous avons livré une solution stable qui répondait aux besoins de suivi en temps réel ."
   },
   {
-  	"id": "mon-premier-projet-4",
-    "titre": "Une appli en jQuery",
-    "description": "Une app utilisant jQuery et Bulma",
-    "details": "Proin et tortor malesuada, mattis tortor a, interdum sapien. Nam eget lorem placerat, lobortis mi sit amet, iaculis nisl. Praesent purus massa, ornare eu dictum at, faucibus vitae purus. Donec varius nisi at lacus aliquet efficitur. Ut id tempus odio. Mauris non lacinia tellus. Phasellus fringilla eros molestie lacus dignissim euismod. Ut imperdiet erat ut lacus tincidunt maximus. Proin enim nunc, molestie vitae placerat ut, pharetra quis purus."
+  	"id": "mon-a4-projet-Norme-2012",
+    "titre": "Logiciel de Gestion des stocks",
+    "description": "Technologies utilisées : VB.NET, MySQL — Outils : WAMP, phpMyAdmin, Visual Studio .NET — Réalisé en binôme — 2e année à l’ENI (2012)",
+    "details": "Ce projet consistait à développer un logiciel bureautique permettant la gestion des stocks d’un commerce local. En équipe de deux, nous avons conçu une interface intuitive en VB.NET, connectée à une base de données MySQL pour suivre les mouvements d’entrées et sorties de produits. J’ai activement participé à la conception des modules de saisie, à l’automatisation des opérations de contrôle de stock, et à l’optimisation des requêtes SQL. Ce projet m’a permis d’approfondir l’interaction entre couche applicative et base de données, tout en consolidant mes compétences en environnement Windows ."
   },
   {
-  	"id": "mon-premier-projet-5",
-    "titre": "Mon premier projet",
-    "description": "Une appli simple faite avec HTML et CSS",
-    "details": "Vivamus efficitur purus eu rhoncus pharetra. Quisque turpis felis, rhoncus a massa nec, vestibulum sollicitudin urna. Nam sit amet urna sed leo gravida rhoncus sit amet et massa. Vivamus viverra dolor tellus, at efficitur nibh volutpat at. Pellentesque risus elit, fermentum placerat ante at, pellentesque pulvinar enim. Nunc tincidunt massa ut libero vulputate, tristique fringilla felis gravida. Fusce tempus urna ut purus venenatis suscipit. Maecenas ultrices lobortis nunc, ut pellentesque mauris auctor non. Integer iaculis tristique ipsum, mollis volutpat elit tincidunt hendrerit. Sed lobortis laoreet eros, pharetra volutpat sem sagittis at. Mauris ligula nisi, euismod vel varius vitae, euismod nec elit. Phasellus aliquam sapien vel tortor aliquam varius. Ut fermentum, magna a aliquam pretium, est magna consequat nisl, vitae lobortis ipsum neque condimentum mi. Mauris venenatis ligula ac neque pharetra auctor."
+  	"id": "mon-a5-projet-Norme-2012",
+    "titre": "Application web de Gestion des ressources humaines — Centre Fiscal B, Fianarantsoa",
+    "description": "Technologies utilisées : HTML, CSS, jQuery, PHP, MySQL — Outils : WAMP, phpMyAdmin, Aptana Studio — Méthodologie : MERISE — Réalisé en binôme — 2e année à l’ENI (2012)",
+    "details": "Ce projet, réalisé pour un centre fiscal, visait à développer une application web dédiée à la gestion du personnel : profils, affectations, congés et présences. En suivant une approche MERISE pour l’analyse fonctionnelle, nous avons conçu une base de données cohérente et mis en place une interface web responsive à l’aide du framework Bulma et de jQuery pour l’interactivité. Mon implication a couvert la modélisation, le développement et l’optimisation de la logique applicative ."
   },
   {
-  	"id": "mon-premier-projet-6",
-    "titre": "Une appli en jQuery",
-    "description": "Une app utilisant jQuery et Bulma",
-    "details": "Ut orci purus, auctor vel mi eu, interdum maximus ex. Vestibulum rutrum convallis dictum. Aenean porta malesuada leo, non dignissim dui suscipit id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin vulputate lectus commodo lobortis accumsan. Pellentesque sagittis ipsum id tempor hendrerit. Suspendisse finibus enim et hendrerit volutpat. Pellentesque lacinia faucibus tincidunt. Nunc eget lorem blandit, finibus erat eu, accumsan quam."
+  	"id": "mon-a6-projet-Norme-2013",
+    "titre": "Application web de gestion de réservation de train",
+    "description": "Technologies utilisées : HTML, CSS, jQuery, ASP, VBScript, MySQL — Outils : ODBC, WAMP, phpMyAdmin, Aptana Studio — Réalisé en trinôme — 3e année à l’ENI (2013)",
+    "details": "Ce projet avait pour objectif de développer une application web permettant la réservation en ligne de billets de train. En tandem, nous avons conçu un système qui gérait les itinéraires, les horaires, les disponibilités et les réservations. J’ai contribué à l’intégration du front-end avec jQuery pour rendre les interactions fluides, ainsi qu’à la mise en place du back-end en ASP/VBScript. L’accès aux données était assuré via MySQL, avec une connexion ODBC robuste. Ce projet m’a permis d’expérimenter une stack atypique et de renforcer ma capacité à concevoir des systèmes orientés utilisateur ."
   },
   {
-  	"id": "mon-premier-projet-7",
-    "titre": "Mon premier projet",
-    "description": "Une appli simple faite avec HTML et CSS",
-    "details": "Proin leo sem, imperdiet viverra pulvinar non, vulputate nec lectus. Ut lacus nunc, pharetra quis vulputate a, efficitur quis tortor. In aliquet interdum placerat. Duis tincidunt sagittis sem eu sollicitudin. Maecenas finibus ex nec sem maximus fermentum. Sed enim enim, eleifend non nisi vitae, venenatis porta nulla. Sed ultricies tempor ex, egestas pulvinar libero consequat eu."
+  	"id": "mon-a7-projet-Norme-2013",
+    "titre": "Logiciel de gestion bancaire",
+    "description": "Technologies utilisées : Java, MySQL — Outils : ODBC, WAMP, phpMyAdmin, NetBeans — Réalisé en trinôme — 3e année à l’ENI (2013)",
+    "details": "Ce projet consistait à créer un logiciel de bureau dédié à la gestion bancaire : création de comptes, opérations de débit/crédit, gestion de solde et historique des transactions. J’ai développé les interfaces graphiques avec Java Swing et structuré la base de données MySQL pour assurer la traçabilité des opérations. L’interconnexion Java/MySQL via ODBC nous a permis de maintenir la stabilité des échanges de données. Ce projet m’a donné l’occasion de combiner logique financière et rigueur technique dans un environnement sécurisé ."
   },
   {
-  	"id": "mon-premier-projet-8",
-    "titre": "Une appli en jQuery",
-    "description": "Une app utilisant jQuery et Bulma",
-    "details": "Fusce commodo massa ac mauris lobortis dictum. Donec tempor metus quis nunc gravida auctor. Morbi interdum commodo elementum. Aliquam justo arcu, pulvinar quis vulputate sed, iaculis sed sem. Cras aliquet justo a ante eleifend, a pretium sapien convallis. Aenean dignissim purus vel interdum vulputate. Vivamus nec mi quis turpis ornare ultricies eget sit amet arcu."
+  	"id": "mon-a8-projet-Norme-2013",
+    "titre": "Application web de gestion de bibliothèque",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript, JSP, MySQL — Outils : Apache Tomcat, WAMP, phpMyAdmin, NetBeans — Réalisé en trinôme — 3e année à l’ENI (2013)",
+    "details": "Ce projet visait à concevoir une application web dédiée à la gestion complète d’une bibliothèque : ajout de livres, emprunts, retours, gestion des adhérents et recherche dynamique. L’intégration de JSP avec MySQL, déployée sur un serveur Apache Tomcat, permettait une gestion fluide des données et une interface adaptable. J’ai participé au développement des formulaires de saisie, à l’implémentation des filtres de recherche et à la modélisation des flux d’interaction. Ce projet m’a permis de mieux comprendre la logique des applications multi-utilisateurs et la structuration des modules fonctionnels ."
   },
   {
-  	"id": "mon-premier-projet-9",
-    "titre": "Mon premier projet last",
-    "description": "Une appli simple faite avec HTML et CSS",
-    "details": "Etiam nec pharetra nibh. In finibus ut felis eget efficitur. Donec eu volutpat justo. Fusce fermentum nunc ipsum, et efficitur mauris ornare eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In aliquet libero et tortor pharetra iaculis. Nunc imperdiet leo consequat, efficitur sapien eget, venenatis justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta et eros ut vulputate. Nullam rhoncus lacus purus, quis eleifend odio mattis eu. Nulla quis sapien ut felis aliquet aliquam. Mauris non sagittis nulla. Suspendisse dictum mauris dui, in ullamcorper ante ultricies eu."
+  	"id": "mon-a9-projet-Norme-2013",
+    "titre": "Réplication MySQL en environnement cluster",
+    "description": "Infrastructure : 5 serveurs MySQL sur OS virtuels Debian — Outils : LAMPP, phpMyAdmin, TTY — Réalisé en groupe de six — 3e année à l’ENI (2013)",
+    "details": "Ce projet technique visait à mettre en place un système de réplication distribuée avec un cluster MySQL, déployé sur cinq machines virtuelles tournant sous Debian. En équipe, nous avons configuré une réplication maître-esclave entre les serveurs, avec surveillance via terminal TTY et gestion centralisée via phpMyAdmin. J’ai participé à l’installation des VM, à la sécurisation des connexions MySQL et au test des synchronisations en conditions simulées. Ce projet m’a permis d’approfondir l’administration système, les réseaux, et la redondance des bases de données ."
   },
   {
-  	"id": "mon-premier-projet-10",
-    "titre": "Une appli en jQuery",
-    "description": "Une app utilisant jQuery et Bulma",
-    "details": "Sed vehicula eros turpis, non pretium nisl scelerisque in. Nam consequat, sapien ac elementum consectetur, nisi ante varius augue, eu finibus nibh lorem nec orci. Nulla tempus dolor ut dui gravida, volutpat imperdiet metus imperdiet. Sed malesuada leo sodales, aliquam arcu at, consequat erat. Nunc vulputate dignissim ante nec fringilla. Vestibulum tellus dolor, pharetra eu nisi maximus, suscipit dictum nulla. Sed varius molestie neque, et tempor dolor efficitur a. Cras ac arcu convallis lorem ornare viverra vitae ac erat. Vivamus a arcu id lectus consequat tincidunt volutpat sit amet ante. Nulla facilisi. Mauris nec tincidunt urna. Integer dictum lorem sed velit finibus, et malesuada nisl fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+  	"id": "mon-b0-projet-Norme-2013",
+    "titre": "Application WebSocket pour un chat en temps réel",
+    "description": "Technologies utilisées : PHP, MySQL, WebSocket (bibliothèque customisée) — Outils : WAMP, phpMyAdmin, NetBeans — Réalisé en équipe de trois — 3e année à l’ENI (2013)",
+    "details": "L’objectif de ce projet était de concevoir une application de messagerie instantanée via WebSocket, permettant une communication en temps réel entre plusieurs utilisateurs. En l'absence de bibliothèque prête à l'emploi, nous avons développé une solution personnalisée pour gérer les connexions persistantes, les envois de messages et le rafraîchissement asynchrone des interfaces. J’ai contribué à l’implémentation du protocole WebSocket en PHP, à la gestion des sessions utilisateur et au stockage sécurisé des historiques de chat en base de données. Ce projet a renforcé mes compétences en gestion des événements serveur et en optimisation des échanges réseau ."
+  },
+  {
+  	"id": "mon-b1-projet-Norme-2013",
+    "titre": "Application web de gestion de stock – DREN Amoron’I Mania, Ambositra",
+    "description": "Technologies utilisées : HTML, CSS, jQuery, PHP, MySQL — Outils : WAMP, phpMyAdmin, NetBeans — Réalisé en solo — 3e année à l’ENI (2013)",
+    "details": "    Dans le cadre de mon diplôme de Licence Professionnelle, j’ai développé une application de gestion des stocks pour la Direction Régionale de l’Éducation Nationale (DREN) d’Amoron’I Mania. Seul développeur sur ce projet, j’ai mené l’intégralité du cycle de développement, de la modélisation UML de la base de données à l’implémentation de la logique métier en PHP, en passant par la création d’une interface utilisateur fluide. L’utilisation de jQuery m’a permis d’intégrer des fonctionnalités dynamiques telles que la recherche instantanée, le filtrage et les mises à jour sans rechargement. Ce projet a été un véritable exercice de rigueur et d’autonomie, et représente une concrétisation technique solide pour l’obtention de mon diplôme ."
+  },
+  {
+  	"id": "mon-b2-projet-Norme-2014",
+    "titre": "Application LDAP pour une authentification centralisée des utilisateurs",
+    "description": "Technologies utilisées : PHP, MariaDB, bibliothèque LDAP personnalisée — Outils : XAMPP, phpMyAdmin, NetBeans — Réalisé en équipe de trois — Master 1 à l’ENI (2014)",
+    "details": "Ce projet avait pour objectif de créer une solution d'authentification centralisée des utilisateurs pour des applications internes. Grâce à une intégration LDAP personnalisée en PHP, nous avons développé un système permettant la connexion unique (SSO) pour différents services web. J’ai travaillé à l’implémentation du protocole LDAP, à la sécurisation des accès avec des contrôles d’identité et à la structuration de la base de données pour assurer la traçabilité. Ce projet m’a donné une forte compréhension des mécanismes d’annuaire, des permissions et de l’interopérabilité entre services ."
+  },
+  {
+  	"id": "mon-b3-projet-Norme-2014",
+    "titre": "Application de Recherche Opérationnelle",
+    "description": "Technologie utilisée : Java — Outils : NetBeans — Réalisé en binôme — Master 1 à l’ENI (2014)",
+    "details": "Ce projet consistait à développer une application algorithmique capable de calculer les chemins optimaux (le plus court et le plus long) dans un graphe donné, en se basant sur les principes de la recherche opérationnelle. En binôme, nous avons codé une interface graphique en Java qui permettait de dessiner un graphe, d’y attribuer des poids, et d’appliquer des algorithmes adaptés (type Dijkstra, Bellman-Ford, etc.). J’ai pris en charge l’implémentation des algorithmes, la gestion des structures de données et la visualisation des résultats. Ce projet m’a permis de lier concepts mathématiques et développement applicatif ."
+  },
+  {
+  	"id": "mon-b4-projet-Norme-2014",
+    "titre": "Application web utilisant le framework WT en C++",
+    "description": "Technologies utilisées : C++, framework WT — Outils : CMake, Visual Studio C++ — Réalisé en solo — Master 1 à l’ENI (2014)",
+    "details": "Ce projet visait à explorer le développement web côté serveur avec le framework WT en C++. En autonomie, j’ai conçu une application web simple avec formulaire et affichage dynamique, en appliquant les principes de programmation événementielle proposés par WT. J’ai utilisé CMake pour la compilation et Visual Studio pour le développement. Ce projet m’a permis d’expérimenter une approche originale du web, en C++, tout en renforçant mes compétences en structuration serveur et architecture orientée composant ."
+  },
+  {
+  	"id": "mon-b5-projet-Norme-2014",
+    "titre": "Application collaborative utilisant Elixir",
+    "description": "Technologies utilisées : Elixir, MariaDB — Outils : XAMPP, phpMyAdmin, NetBeans — Réalisé en équipe de cinq — Master 1 à l’ENI (2014)",
+    "details": "Cette application avait pour but de démontrer les capacités de programmation concurrente et distribuée offertes par Elixir. En équipe, nous avons développé un service backend capable de gérer des requêtes simultanées, relié à une base MySQL pour le stockage persistant. Mon rôle a été centré sur l’implémentation de fonctions modulaires en Elixir et la mise en place de processus isolés pour des opérations indépendantes. Ce projet m’a initié à la philosophie fonctionnelle et aux architectures orientées performance ."
+  },
+   {
+  	"id": "mon-b6-projet-Norme-2014",
+    "titre": "Analyse des outils open source pour UML",
+    "description": "Technologies utilisées : JSP, MariaDB — Outils : Apache Tomcat, XAMPP, phpMyAdmin, NetBeans, Vusial Paradigm, Modelio, Win'design, starUML, plantUML — Réalisé en équipe de quatre — Master 1 à l’ENI (2014)",
+    "details": "Ce projet combinait une étude comparative des outils open source de modélisation UML et le développement d’une interface web simple pour explorer et documenter les outils: Vusial Paradigm, Modelio, Win'design, starUML et plantUML. En utilisant JSP pour le front-end et MySQL comme moteur de stockage, nous avons conçu un système permettant de visualiser les caractéristiques, compatibilités et usages de chaque solution UML. J’ai participé à l'exploration de Modelio, à la collecte des données, à la structuration des fiches descriptives et à la mise en place des modules d’évaluation. Ce projet a renforcé mon approche méthodique de l’analyse fonctionnelle et de la documentation technique."
+  },
+  {
+  	"id": "mon-b7-projet-Norme-2015",
+    "titre": "Application mobile Androïd",
+    "description": "Technologies utilisées : Java, XML, SQLite Outils : Android Studio, émulateur HTC (simulation) — Réalisé en équipe de trois — Master 2 à l’ENI (2015)",
+    "details": "Ce projet avait pour objectif de concevoir une application mobile simple tournant sur Android, avec stockage local des données utilisateurs via SQLite. En équipe, nous avons imaginé un petit système de gestion de contacts et intégré une interface XML responsive, des interactions fluides en Java, et une base légère embarquée. J’ai contribué à la conception des écrans, au flux de navigation et à la synchronisation avec la base locale. Ce projet m’a permis de m’initier au développement mobile Android, à la gestion des ressources et à l’adaptation multiplateforme via émulation ."
+  },
+  {
+  	"id": "mon-b8-projet-Norme-2015",
+    "titre": "Logiciel de gestion des éléves avec utilisation de TRIGGER de MySQL",
+    "description": "Technologies utilisées : Java, SQL, MariaDB — Outils : XAMPP, phpMyAdmin, console MySQL, MySQL Wokbench, NetBeans — Réalisé en équipe de trois — Master 2 à l’ENI (2015)",
+    "details": "Cette application bureautique visait à gérer efficacement les informations relatives aux élèves : inscription, notes, statuts, redoublements, etc. L'originalité du projet reposait sur l'utilisation avancée des TRIGGER de MySQL, combinés à des procédures stockées, des fonctions SQL, des VIEWS et des INDEX pour optimiser les performances. J’ai conçu la base de données relationnelle, développé l’interface graphique en Java (via Swing), et automatisé des règles de gestion via des scripts SQL déclenchés à chaque opération critique. Ce projet a renforcé ma maîtrise de la programmation événementielle côté base de données et de l’architecture applicative Java/MySQL ."
+  },
+  {
+  	"id": "mon-b9-projet-Norme-2015",
+    "titre": "Application webservices RESTful avec Spring Boot",
+    "description": "Technologies utilisées : Java, Spring Boot, Svelte, MariaDB — Outils : NetBeans, XAMPP, phpMyAdmin — Réalisé en équipe de trois — Master 2 à l’ENI (2015)",
+    "details": "Ce projet visait à concevoir une application de gestion dotée d’une architecture RESTful, à base de microservices. En équipe, nous avons développé un backend Java avec Spring Boot exposant des API REST, et un front-end moderne en Svelte. La base de données MariaDB assurait la persistance des données métier. J’ai participé à la création des endpoints, à la structuration des entités et à la communication entre les couches via des services et des contrôleurs. Ce projet m’a permis d’acquérir une bonne maîtrise du découpage applicatif, de la sérialisation JSON et du modèle MVC côté Spring ."
+  },
+  {
+  	"id": "mon-c0-projet-Norme-2015",
+    "titre": "Application web avec Razor (C# et MariaDB)",
+    "description": "Technologies utilisées : C#, Razor (ASP.NET), MariaDB — Outils : NetBeans, XAMPP, phpMyAdmin — Réalisé en équipe de trois — Master 2 à l’ENI (2015)",
+    "details": "Cette application avait pour objectif de gérer des opérations courantes (gestion d’articles, utilisateurs, transactions…) via une interface Razor en ASP.NET. Le backend en C# interagissait avec MariaDB, et des échanges en WebSocket (bibliothèque customisée) permettaient des mises à jour dynamiques. J’ai activement participé au développement des pages Razor, à la configuration du modèle de données, et à la logique métier en C#. Ce projet m’a permis de consolider mes compétences sur la stack .NET, notamment la séparation entre vue et logique métier, et les formulaires dynamiques avec Razor ."
+  },
+  {
+  	"id": "mon-c1-projet-Norme-2016",
+    "titre": "Application web de gestion de navire et gens de mer — APMF, Toliara",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript, PHP, Bootstrap, jQuery, CodeIgniter, PostgreSQL — Outils : NetBeans, Apache (XAMPP), pgAdmin — Réalisé en solo — Master 2 à l’ENI (2016)",
+    "details": "Pour valider mon Master Professionnel, j’ai développé seul une application de gestion complète dédiée à l’administration maritime, incluant le suivi des navires, des marins, des licences, des inspections ainsi que les embarquements et débarquements. L'application repose sur 22 tables relationnelles, conçues à l’aide de la méthode 2TUP (Two Tracks Unified Process), qui m’a permis d’assurer une modélisation métier rigoureuse, des documents bien structurés et une validation progressive des exigences fonctionnelles. J’ai utilisé le framework CodeIgniter pour l’architecture MVC, avec une base PostgreSQL garantissant l’intégrité des transactions. Le front-end responsive est conçu avec Bootstrap et jQuery, assurant une navigation fluide et intuitive. Ce projet représente une vitrine technique complète de mes compétences, mené en autonomie totale dans le cadre de mon mémoire de fin d’études ."
+  },
+  {
+  	"id": "mon-c2-projet-Norme-2017",
+    "titre": "Application web de gestion des annonces — 2017",
+    "description": "Technologies utilisées : Bootstrap, jQuery, CodeIgniter, MariaDB — Outils : Aptana Studio, XAMPP, phpMyAdmin — Réalisé en solo",
+    "details": "Développée en autonomie, cette application permet la publication, la modification et le classement d’annonces dans une interface fluide et responsive. Structurée avec le framework CodeIgniter en architecture MVC, elle offre une gestion complète des contenus dynamiques via un back-office sécurisé. J’ai conçu la base MariaDB, intégré les styles avec Bootstrap et automatisé les actions utilisateurs grâce à jQuery. Ce projet m’a permis de mettre en œuvre une application orientée service avec une attention particulière portée à la simplicité d’administration ."
+  },
+  {
+  	"id": "mon-c3-projet-Norme-2018",
+    "titre": "Site vitrine de l’INSCAE – Version 1.0 — 2018",
+    "description": "Technologies utilisées : Bootstrap, jQuery, PHP, MariaDB — Outils : Sublime Text, XAMPP, phpMyAdmin — Réalisé en solo — avec animations avancées",
+    "details": "Ce projet consistait à concevoir le premier site vitrine institutionnel pour l’INSCAE, avec une interface élégante et animée. J’ai intégré de nombreux effets visuels en jQuery, pensé l’identité graphique avec Bootstrap, et structuré les données avec PHP/MariaDB. L’objectif était de présenter l’établissement, ses formations et son actualité dans un site dynamique et accessible. Ce projet m’a permis de démontrer mes compétences en web design, en structuration de contenu institutionnel, responsive et fidèle à l’image de l'institution, et en intégration fluide d’animations front-end ."
+  },
+  {
+  	"id": "mon-c4-projet-Norme-2018",
+    "titre": "Site web de restaurant — 2018",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript — Outils : Notepad++ — Réalisé à partir d’un tutoriel — projet d’apprentissage personnel",
+    "details": "Inspiré du célèbre tutoriel de Grafikart, ce projet m’a permis d’approfondir la structure et le design d’un site web de restaurant avec menus, animations et responsive design. J’ai repris les bases du tutoriel tout en y apportant mes propres ajustements visuels et fonctionnels. Ce projet m’a aidé à renforcer mes compétences en intégration HTML/CSS, le référencement naturel (SEO via le balise title et meta qui a l'attribut description) et à explorer les effets dynamiques en JavaScript. Il reste une belle démonstration de mon autonomie et de mon goût pour le design interactif ."
+  },
+  {
+  	"id": "mon-c5-projet-Norme-2019",
+    "titre": "Application web de blog — 2019",
+    "description": "Technologies utilisées : Bootstrap, PHP, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo",
+    "details": "Ce projet consistait à développer une application simple permettant de publier des articles dans un format blog. J’ai conçu l’interface utilisateur avec Bootstrap pour assurer un affichage responsive, et utilisé PHP pour créer un système de gestion des publications, catégories et commentaires. Les contenus sont stockés et gérés via MariaDB, avec des requêtes optimisées pour l’affichage chronologique et la pagination. Réalisé de manière autonome, ce projet m’a permis de maîtriser la création d’un site éditorial complet, depuis la base de données jusqu’à la navigation front-end ."
+  },
+  {
+  	"id": "mon-c6-projet-Norme-2019",
+    "titre": "Application PHP de lecture de fichiers Markdown — 2019",
+    "description": "Technologies utilisées : PHP (avec bibliothèque Markdown), jQuery, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Projet personnel",
+    "details": "Cette application permet de lire et d’afficher dynamiquement des fichiers Markdown (.md) en PHP, avec mise en forme HTML automatique pour la documentation. J’ai intégré une bibliothèque Markdown en PHP pour le parsing, et utilisé jQuery pour gérer les interactions telles que la navigation entre fichiers et la recherche par mot-clé. Les fichiers sont versionnés via Git et peuvent être associés à des métadonnées stockées en MariaDB. Ce projet m’a permis de renforcer ma maîtrise des formats légers, de la gestion de contenu simplifiée, et de l’interprétation dynamique des fichiers côté serveur ."
+  },
+  {
+  	"id": "mon-c7-projet-Norme-2019",
+    "titre": "Application PHP de lecture, modification et gestion de fichiers JSON/TXT — 2019",
+    "description": "Technologies utilisées : PHP, cURL, Bootstrap — Outils : Notepad++, XAMPP, phpMyAdmin — Projet personnel",
+    "details": "Ce projet consistait à créer une interface web capable de lire, modifier, renommer et ajouter dynamiquement des fichiers JSON ou TXT, sans passer par le déploiement manuel. En utilisant les fonctions natives PHP telles que json_encode(), json_decode() et file_get_contents(), j’ai conçu une application qui traite les fichiers depuis le serveur, tout en intégrant une interface Bootstrap pour une expérience utilisateur intuitive. Grâce à cURL, l'application peut également interagir avec des ressources externes. Ce projet m’a permis d’explorer la gestion de contenu structurée depuis le web, avec une logique orientée automatisation ."
+  },
+  {
+  	"id": "mon-c8-projet-Norme-2019",
+    "titre": "Application JavaScript de lecture des fichiers JSON/TXT avec AJAX — 2019",
+    "description": "Technologies utilisées : JavaScript, jQuery, AJAX (XMLHttpRequest $ajax, fetch), Bootstrap — Outils : Notepad++ — Projet personnel — expérimentation côté client",
+    "details": "Ce projet explore la lecture de fichiers JSON et TXT directement via des appels AJAX en JavaScript, sans rechargement de page. L’application utilise différentes méthodes de récupération — XMLHttpRequest, fetch API et jQuery — pour afficher dynamiquement le contenu. Avec Bootstrap, l’interface est responsive et agréable à naviguer. Ce projet m’a permis de tester plusieurs techniques de parsing côté client et de comprendre la gestion asynchrone des ressources textuelles. Il représente une belle synthèse entre légèreté, efficacité et interactivité ."
+  },
+  {
+  	"id": "mon-c9-projet-Norme-2019",
+    "titre": "Mini-framework PHP inspiré de CodeIgniter — 2019",
+    "description": "Technologies utilisées : PHP (avec bibliothèque Markdown), jQuery, Bootstrap, cURL, AJAX, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — projet d’intégration personnelle",
+    "details": "Ce projet ambitieux consistait à concevoir mon propre mini-framework PHP, inspiré de la structure de CodeIgniter, afin d’optimiser et centraliser les bonnes pratiques acquises tout au long de l’année 2019. J’ai intégré des fonctionnalités clés : routage simplifié, traitement Markdown, appels AJAX, gestion des réponses JSON et organisation MVC. Le front-end est propulsé par Bootstrap et les échanges asynchrones par jQuery et cURL. Ce framework personnalisé m’a offert une base modulable pour des projets futurs, consolidant mes compétences en architecture logicielle et en réutilisabilité du code ."
+  },
+  {
+  	"id": "mon-d0-projet-Norme-2020",
+    "titre": "Site vitrine de l’INSCAE — Version 2.0 — 2020",
+    "description": "Technologies utilisées : Bootstrap, mini-framework PHP, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — version améliorée du site institutionnel",
+    "details": "Pour cette seconde version du site vitrine de l’INSCAE, j’ai personnalisé intégralement le design, en optant pour une interface plus sobre et optimisée, avec des animations réduites pour améliorer la performance et l’accessibilité. Le site repose sur mon propre mini-framework PHP, garantissant flexibilité et maintenance simplifiée. Les contenus sont structurés dans MariaDB, et le front-end responsive est propulsé par Bootstrap. Ce projet marque une étape importante dans mon parcours professionnel, en mettant en œuvre mes propres outils et une approche mature du développement web institutionnel ."
+  },
+  {
+  	"id": "mon-d1-projet-Norme-2020",
+    "titre": "Deux applications web pour apprendre SASS — 2020",
+    "description": "Technologies utilisées : HTML, SCSS (SASS lang) — Outils : VS Code, Dart-Sass — Réalisé en solo — projet exploratoire + documentation Markdown",
+    "details": "Ce projet est composé de deux interfaces web développées dans le but d’apprendre et de maîtriser SASS, le langage de préprocesseur CSS. La première est une application classique orientée design, la seconde est un site touristique fictif, intégrant des styles modulaires et des fonctionnalités SCSS telles que les variables, mixins, et nesting. J’ai également rédigé une documentation technique en Markdown pour accompagner le projet et formaliser les notions apprises. Ce travail m’a permis d’améliorer l’organisation de mes feuilles de style et de mieux structurer mes interfaces selon une approche modulaire ."
+  },
+  {
+  	"id": "mon-d2-projet-Norme-2020",
+    "titre": "Application Angular OpenClassrooms – Apprentissage front-end avancé — 2020",
+    "description": "Technologies utilisées : Angular (TypeScript), Git, SCSS, Node.js — Outils : VS Code, NPM — Projet personnel — basé sur un parcours OpenClassrooms",
+    "details": "Ce projet s’inscrit dans une démarche d’apprentissage avancée du framework Angular à travers le parcours proposé par OpenClassrooms. J’ai développé les bases d’une application front-end avec des composants Angular, en intégrant du SCSS pour styliser les vues et Node.js comme environnement de développement. Le projet est resté partiellement inachevé à partir des versions 2 et 3, mais il m’a permis de comprendre la logique des modules, des services, du routing Angular, et de la manipulation des observables. Ce défi technique m’a poussé à sortir de ma zone de confort et à affiner mes compétences front-end."
+  },
+  {
+  	"id": "mon-d3-projet-Norme-2020",
+    "titre": "Série d'applications PHP 7 — avec PDO, JS, SASS et Git — 2020",
+    "description": "Technologies utilisées : PHP (PDO), JavaScript, SASS, Git, Markdown — Outils : VS Code, Sublime Text, Notepad++, Ungit, Dart-Sass, XAMPP, phpMyAdmin — Projet d’autoformation basé sur le tutoriel de Grafikart",
+    "details": "Ce projet regroupe plusieurs mini-applications PHP que j’ai développées dans une démarche d’auto-perfectionnement, en suivant le célèbre tutoriel de Grafikart. Chaque application utilise PDO pour l’accès aux données, avec une séparation claire entre logique métier et affichage. J’ai intégré des styles avancés en SASS, des interactions dynamiques en JavaScript, et structuré le code avec Git pour versionner mes travaux. En complément, j’ai rédigé des documentations Markdown pour formaliser mes acquis. Ce projet m’a permis de consolider mes bonnes pratiques en développement PHP moderne et en gestion collaborative de code ."
+  },
+  {
+  	"id": "mon-d4-projet-Norme-2021",
+    "titre": "Apprentissage approfondi de MySQL et SQL — 2021",
+    "description": "Technologies utilisées : SQL (procédures, fonctions, triggers), MariaDB, Git, Markdown — Outils : XAMPP, phpMyAdmin, Console MySQL, MySQL Workbench — Projet personnel — tutoriel + w3scools.com (MySQL et SQL) + documentation technique",
+    "details": "Dans une démarche d’approfondissement des bases de données, j’ai exploré les fonctionnalités avancées de MySQL et MariaDB : création de procédures stockées, de fonctions paramétrées, et mise en œuvre de triggers pour automatiser la gestion des données. Grâce à MySQL Workbench et phpmyadmin, j’ai pu visualiser mes modèles relationnels et tester les interactions complexes en temps réel. J’ai également rédigé une documentation structurée en Markdown, regroupant mes scripts, cas d’usage et bonnes pratiques. Ce projet a marqué un tournant dans ma maîtrise des bases de données transactionnelles et dans la rédaction technique claire ."
+  },
+  {
+  	"id": "mon-d5-projet-Norme-2021",
+    "titre": "Apprentissage de Oracle 12C et utilisation de Oracle APEX — 2021",
+    "description": "Technologies utilisées : SQL, PL/SQL, OracleDB — Outils : Oracle 12C, Oracle APEX (en ligne), Console Oracle — Réalisé en solo — documentation par captures d’écran",
+    "details": "Ce projet avait pour objectif d’explorer l’écosystème Oracle, en découvrant à la fois le fonctionnement de Oracle Database 12C et les possibilités offertes par la plateforme Oracle APEX. En autonomie, j’ai expérimenté la création d’applications web simplifiées via APEX, la conception de tables relationnelles, l’écriture de procédures en PL/SQL, et la structuration de requêtes SQL avancées. Je n’ai pas rédigé de documentation Markdown cette fois-ci, mais j’ai réalisé une série de captures d’écran commentées, utiles pour présenter mes acquis. Ce projet a renforcé ma capacité à aborder des solutions professionnelles robustes dans l’environnement Oracle ."
+  },
+  {
+  	"id": "mon-d6-projet-Norme-2021",
+    "titre": "Application pipeline avec Logstash pour Elasticsearch et Kibana — 2021",
+    "description": "jPython, Logstash, MySQL, SQLite — Outils : Console jPython, XAMPP, phpMyAdmin, SQLiteStudio — Documentation technique en Markdown — projet d’exploration avancée",
+    "details": "Ce projet technique avait pour objectif de mettre en œuvre un pipeline de traitement et d’indexation de données en utilisant Logstash avec Elasticsearch et Kibana pour la visualisation. En parallèle, j’ai développé un script en jPython pour alimenter les bases MySQL et SQLite, en simulant des flux de données. Le pipeline extrait, transforme et transmet les informations vers Elasticsearch, où elles sont analysées et visualisées via Kibana. Ce projet complexe m’a permis de mieux comprendre les systèmes ELK, les connecteurs Logstash, et l’intégration multi-base. La documentation associée en Markdown recense les étapes, difficultés rencontrées et solutions testées ."
+  },
+  {
+  	"id": "mon-d7-projet-Norme-2021",
+    "titre": "Utilisation de Google Workspace + création de comptes GitHub/GitLab — 2021",
+    "description": "Technologies explorées : AppScript, Git — Outils : Google Platform (Docs, Sheets, Slides, Classroom), Google App Script IDE, GitHub, GitLab — Projet d’autoformation — réalisation en solo",
+    "details": "Ce projet m’a permis d’explorer en profondeur les outils de productivité de Google Workspace : rédaction collaborative avec Docs, gestion tabulaire avec Sheets, présentations dynamiques avec Slides et intégration pédagogique via Google Classroom. J’ai également découvert le développement léger avec AppScript, en automatisant certaines actions (formulaires, alertes, etc.). En parallèle, j’ai créé mes comptes sur GitHub et GitLab, ce qui m’a permis de comprendre les bases du versionnement, de l’hébergement de projet, et de la collaboration open source. Ce projet représente une étape importante vers une pratique professionnelle organisée et ouverte ."
+  },
+  {
+  	"id": "mon-d8-projet-Norme-2021",
+    "titre": "Application REST avec Postman et PHP cURL — 2021",
+    "description": "Technologies utilisées : PHP, cURL, API REST, Postman — Outils : XAMPP, phpMyAdmin, Notepad++, Postman, https://jsonplaceholder.typicode.com/posts — Projet de validation d’API REST — basé sur un tutoriel OpenClassrooms",
+    "details": "Ce projet technique consistait à tester l’interaction entre un client REST et une API distante via Postman. En suivant le tutoriel OpenClassrooms, j’ai réalisé une application PHP capable de consommer des endpoints REST comme ceux proposés par https://jsonplaceholder.typicode.com/posts. Grâce à cURL, j’ai effectué des requêtes GET, POST, PUT et DELETE en simulant des opérations sur des ressources JSON. Le développement back-end s’est révélé fluide et instructif, m’offrant une meilleure compréhension des mécanismes de RESTful API, du format JSON, et des outils de test comme Postman ."
+  },
+  {
+  	"id": "mon-d9-projet-Norme-2022",
+    "titre": "Création d’une API RESTful simple avec PHP, PDO et SQLite — 2022",
+    "description": "Technologies utilisées : PHP (PDO), SQLite, Markdown — Outils : Notepad++, Serveur Apache — Réalisé en solo — apprentissage des fondamentaux d’API REST",
+    "details": "Ce projet visait à créer une API RESTful légère en PHP, avec PDO comme couche d’accès à la base SQLite, afin de simplifier la manipulation des données sans serveur SQL complexe. J’ai implémenté deux endpoints : GET all et GET by ID, pour tester la récupération de données sans utiliser d'outils comme Postman. L’objectif était de comprendre le fonctionnement des méthodes HTTP, de structurer les routes REST, et d’exploiter le stockage local. J’ai rédigé une documentation technique en Markdown, précisant les headers, les structures de réponse et les paramètres. Ce projet m’a donné une base solide pour créer des services autonomes et portables ."
+  },
+  {
+  	"id": "mon-e0-projet-Norme-2022",
+    "titre": "Application web multilingue avec CodeIgniter 3 — 2022",
+    "description": "Technologies utilisées : Bootstrap, jQuery, CodeIgniter 3, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — inspiré des tutoriels de Tamil & TraversyMedia",
+    "details": "Après avoir constaté les limites de mon mini-framework personnel, j’ai lancé le développement d’une application web multilingue, en m’appuyant sur CodeIgniter 3 pour sa robustesse et sa structure MVC éprouvée. Ce projet permet de basculer dynamiquement entre plusieurs langues (français, anglais, etc.) via un système de traduction local, sans utiliser l’approche conventionnelle d’internationalisation (i18n). J’ai conçu une librairie personnalisée de gestion des langues, adaptée aux besoins du projet, en exploitant les fichiers natifs de CodeIgniter. L’interface utilisateur est construite avec Bootstrap, enrichie d’effets interactifs via jQuery, et les données sont organisées dans une base MariaDB. Ce projet m’a permis de mieux comprendre la modularité des frameworks matures, tout en affirmant ma capacité à adapter les outils à mes contraintes techniques ."
+  },
+  {
+  	"id": "mon-e1-projet-Norme-2022",
+    "titre": "Exploration du framework Bulma et mise en pratique de jQuery — 2022",
+    "description": "Technologies utilisées : HTML, CSS, JavaScript, jQuery, Bulma (v0.9.4) — Outils : Notepad++ — Réalisé en solo — pages de type e-commerce, admin, fiche produit, etc.",
+    "details": "Ce projet de formation continue consistait à explorer le framework CSS Bulma, en reproduisant différentes structures d’interface : dashboard administrateur, page e-commerce, vitrine de services, etc. J’ai également mis en pratique des extraits de jQuery inspirés de https//www.w3schools.com pour dynamiser les interactions (modales, filtres, dropdowns…). Le but était de tester la modularité de Bulma tout en améliorant ma maîtrise de JavaScript côté client. Ce projet m’a permis de gagner en efficacité sur la création de maquettes responsives et fonctionnelles, réutilisables dans des cas réels ."
+  },
+  {
+  	"id": "mon-e2-projet-Norme-2022",
+    "titre": "Ensemble d’applications web avec CodeIgniter 3, Bulma et fichiers JSON — 2022",
+    "description": "Technologies utilisées : CodeIgniter 3, Bulma, jQuery, MariaDB, JSON — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — blog, e-commerce, forum, site vitrine, tourisme, etc.",
+    "details": "Ce projet regroupe plusieurs applications web modulaires (blog, site e-com, forum, vitrine, tourisme, …) développées avec le framework CodeIgniter 3 pour structurer la logique MVC. L’interface est stylisée avec Bulma pour garantir une cohérence visuelle et un affichage responsive. La gestion des contenus repose sur des fichiers JSON avec fonctionnalités de lecture (GET all, GET one) et création (POST) via AJAX. La base MariaDB s’appuie sur une structure relationnelle centrée sur les entités categories, posts, tags et post_tag. Ce projet m’a permis d’expérimenter une approche multi-modèles tout en renforçant la gestion des données et le rendu dynamique côté client.."
+  },
+  {
+  	"id": "mon-e3-projet-Norme-2022",
+    "titre": "Exploration du framework Hugo pour sites statiques — 2022",
+    "description": "Technologies utilisées : HTML, CSS, Bootstrap, GoLang (Hugo) — Outils : Hugo CLI (serveur local), Notepad++ — Réalisé en solo — projet statique optimisé Markdown",
+    "details": "Ce projet avait pour objectif de découvrir le framework Hugo, reconnu pour sa rapidité et sa capacité à générer des sites statiques ultra-performants. En exploitant le moteur Go intégré, j’ai mis en place une structure de contenu alimentée en Markdown, avec des templates réutilisables et un design en Bootstrap. Le serveur Hugo permettait un rendu instantané des pages lors de chaque sauvegarde, et j’ai pu explorer les performances de traitement de fichiers .md, notamment pour les blogs ou documentations. Ce projet m’a permis d’appréhender une approche minimaliste et rapide du développement web, tout en me familiarisant avec les systèmes de génération statique ."
+  },
+  {
+  	"id": "mon-e4-projet-Norme-2022",
+    "titre": "Développement d’une application web Django selon w3schools — 2022",
+    "description": "Technologies utilisées : HTML, CSS, jQuery, Bulma, Python, Django, SQLite — Outils : Serveur Python (Django), Notepad++ — Projet de découverte — Réalisé en solo",
+    "details": "Basé sur le tutoriel w3schools, ce projet visait à construire une application web Django avec une base de données SQLite, un back-end en Python, et une interface stylisée en Bulma avec des effets dynamiques en jQuery. L’environnement Django m’a permis d’explorer la structure MVC (MTV), la création de modèles, la manipulation des routes et l’intégration des templates. Même si le projet s’est révélé plus exigeant techniquement, il m’a permis d’enrichir ma compréhension du développement Python web, des migrations, et des conventions backend modernes ."
+  },
+  {
+  	"id": "mon-e5-projet-Norme-2022",
+    "titre": "Génération et gestion de base de données avec dbForge sous codeigniter 3 — 2022",
+    "description": "Technologies utilisées : CodeIgniter 3, PHP 7, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin, dbForge de codeigniter 3 — Réalisé en solo",
+    "details": "Ce projet consistait à développer une application sous CodeIgniter 3 capable de créer, modifier et organiser dynamiquement des bases de données et leurs tables. Grâce à l’outil dbForge, j’ai pu définir des règles de manipulation : ajout, suppression, renommage de tables ; insertion et modification de colonnes (fields), clés (keys) et attributs. L’objectif était d’intégrer un système d’administration souple, permettant à un utilisateur technique de structurer ses données sans avoir à intervenir manuellement dans phpMyAdmin. Ce projet m’a permis d’automatiser des opérations de modélisation tout en renforçant ma maîtrise des interactions entre CI3 et MariaDB ."
+  },
+  {
+  	"id": "mon-e6-projet-Norme-2022",
+    "titre": "Application PHP multi-bases avec mini-framework personnalisé — 2022",
+    "description": "Technologies utilisées : PHP 7, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — gestion simultanée de plusieurs bases",
+    "details": "L’objectif de ce projet était de concevoir une application capable de gérer plusieurs bases de données simultanément, à travers un mini-framework PHP conçu sur mesure. Cette architecture offre la flexibilité d’administrer différents espaces applicatifs isolés (de 3 à 5 bases ou plus), chacun avec ses propres connexions, schémas et règles métier. J’ai mis en place une gestion intelligente des identifiants et des fichiers de configuration, permettant de basculer facilement d’une base à une autre selon le contexte. Ce projet m’a permis d’explorer la segmentation des données, les principes de scalabilité en environnement PHP, et l’organisation de projets multi-clients ."
+  },
+  {
+  	"id": "mon-e7-projet-Norme-2023",
+    "titre": "Application de gestion de recettes — CodeIgniter 4 — 2023",
+    "description": "Technologies utilisées : PHP 7, CodeIgniter 4, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — inspiré d’un blog francophone",
+    "details": "Ce projet a pour but de développer une application de gestion de recettes culinaires, avec une interface simple et intuitive permettant de créer, consulter, modifier et organiser des fiches de recettes. Inspiré d’un blog technique en français, j’ai structuré l’application selon le modèle MVC de CodeIgniter 4, avec des modèles de données centrés sur les ingrédients, étapes de préparation et catégories. La base de données MariaDB gère les contenus textuels et les relations entre les recettes. L’interface permet la navigation entre recettes, un affichage par catégorie, et une pagination claire pour la consultation. Ce projet m’a permis de consolider mes compétences en CodeIgniter 4 et de comprendre comment adapter une application métier à un public précis (amateur de cuisine ou gestion de contenu culinaire) ."
+  },
+  {
+  	"id": "mon-e8-projet-Norme-2023",
+    "titre": "Développement de trois applications de blog avec CodeIgniter 4.0.4, 4.1.6 et 4.1.9 — 2023",
+    "description": "Technologies utilisées : PHP 7.3, CodeIgniter 4, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — approche comparative",
+    "details": "Ce projet consistait à développer et comparer trois versions d’une application de blog en utilisant successivement CodeIgniter 4.0.4, 4.1.6 et 4.1.9. Chaque version a présenté des particularités techniques et des comportements différents selon la structure du framework, la compatibilité des helpers, et la documentation disponible. L’architecture reste centrée sur le modèle MVC, avec des fonctionnalités classiques : gestion de posts, catégories, filtres, recherche, etc. Ce projet m’a permis de mieux comprendre l’impact du versioning sur la stabilité, la flexibilité du code, et les performances, tout en consolidant mes pratiques d’installation, de routage et d’organisation des modules dans codeigniter 4 ."
+  },
+  {
+  	"id": "mon-e9-projet-Norme-2023",
+    "titre": "Application de gestion de cours en ligne avec CodeIgniter 4.5.2 — 2023",
+    "description": "Technologies utilisées : PHP 8.2, CodeIgniter 4.5.2, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Réalisé en solo — interface client gratuite et payante",
+    "details": "L’interface de backoffice permet aussi de gérer les modules, les utilisateurs, et les suivis. Ce projet m’a permis de maîtriser les concepts de gestion de rôles, de facturation dynamique, et de création d’un parcours utilisateur adapté selon l’accès, tout en exploitant pleinement les nouveautés de codeigniter 4.5.2 . Ce projet propose une plateforme structurée de gestion de cours, intégrant deux profils principaux : - Utilisateurs gratuits accèdent uniquement à des cours publics attribués - Utilisateurs payants disposent de l’ensemble des contenus, avec factures PDF générées automatiquement Le backoffice permet à l’administrateur de gérer les modules, les accès, les inscriptions et les paiements. L’application repose sur CodeIgniter 4.5.2, qui offre une meilleure gestion des routes, des contrôleurs et des librairies modernes pour manipuler les fichiers PDF. Ce projet m’a permis de structurer une application évolutive à logique de rôles, orientée services numériques avec automatisation des processus ."
+  },
+  {
+  	"id": "mon-f0-projet-Norme-2023",
+    "titre": "Exploration de Vue.js 2 à partir des tutoriels W3Schools & Grafikart — 2023",
+    "description": "Technologies utilisées : Vue.js 2 (via CDN), Bulma — Outils : Notepad++, Serveur local — Réalisé en solo — expérimentation progressive",
+    "details": "Ce projet a consisté à découvrir et mettre en pratique les fondamentaux de Vue.js 2, en combinant librement les approches des tutoriels proposés par W3Schools et Grafikart. J’ai conçu des composants simples, utilisé des directives (v-bind, v-model, etc.), et intégré le tout dans une interface stylisée avec Bulma. L’objectif était d’adapter les exemples à ma propre logique, en simplifiant l’affichage dynamique de données et les interactions DOM. Ce projet m’a permis de comprendre la réactivité, le templating declaratif, et la modularité des composants Vue, tout en découvrant la philosophie MVVM embarquée dans Vue.js ."
+  },
+  {
+  	"id": "mon-f1-projet-Norme-2024",
+    "titre": "Lecteur Markdown avec marked.js, highlight.js et gestion JSON — 2024",
+    "description": "Technologies utilisées : marked.js, highlight.js, axios, jQuery, Markdown, Bulma — Outils : Notepad++ — Réalisé en solo — avec l’aide d’une IA assistante (“mon cousin le Génie”)",
+    "details": "Ce projet propose une interface web capable de lire et afficher des fichiers Markdown, en les interprétant via la librairie marked.js et en y ajoutant une coloration syntaxique avec highlight.js . Les données sont organisées via JSON, récupérées avec Axios ou jQuery, puis affichées dynamiquement dans une interface responsive conçue avec Bulma. Une touche créative supplémentaire : j’ai intégré le soutien d’une IA (Copilot) pour enrichir les choix techniques et la logique fonctionnelle, ce qui a donné naissance à une application vivante, utile pour explorer des documentations ou articles codés en .md ."
+  },
+  {
+  	"id": "mon-f2-projet-Norme-2024",
+    "titre": "Application web de documentation par catégories et projets sous CodeIgniter 3 — 2024",
+    "description": "Technologies utilisées : PHP (CI3), Bulma, jQuery — Outils : Notepad++, Apache (XAMPP), fichiers .txt — Réalisé en solo — documentation offline par projet",
+    "details": "Cette application permet d’afficher des fichiers de documentation technique répartis par catégorie et par projet, directement depuis des fichiers .txt placés dans des dossiers organisés. Le système repose sur un moteur simple conçu avec CodeIgniter 3, capable de naviguer entre les pages suivantes/précédentes, d’afficher les contenus au bon format et de proposer un accès hiérarchisé aux documents. L’interface est stylisée avec Bulma pour la clarté visuelle, et les interactions sont dynamisées par jQuery. Ce projet démontre qu’il est possible de structurer efficacement des documentations techniques, sans base de données, avec une logique simple mais scalable ."
+  },
+  {
+  	"id": "mon-f3-projet-Norme-2024",
+    "titre": "Application statique de blog avec pagination (sans serveur) — 2024",
+    "description": "Technologies utilisées : jQuery, Axios, Bulma — Outils : Notepad++, jsonplaceholder.typicode.com/posts — Réalisé en solo — rendu dynamique sans serveur local",
+    "details": "Ce projet propose un blog statique qui récupère les données d’un faux backend via l’API https://jsonplaceholder.typicode.com/posts, affichées avec une pagination côté client. Grâce à Axios et jQuery, l’application peut charger les articles par lot, gérer les pages suivantes/précédentes, et simuler un comportement interactif sans aucun serveur local (même sans live-server). Le design Bulma assure un affichage responsive et propre. Ce projet montre qu’on peut créer une expérience blog réaliste et fluide entièrement en front-end, en maîtrisant les appels réseau et les rendus dynamiques ."
+  },
+  {
+  	"id": "mon-f4-projet-Norme-2025",
+    "titre": "Application de gestion de rendez-vous avec Laravel 8 — 2025",
+    "description": "Technologies utilisées : Bulma, Laravel 8, PHP 8.2, MariaDB — Outils : Notepad++, XAMPP, phpMyAdmin — Projet personnel — apprentissage par la pratique",
+    "details": "Ce projet avait pour objectif de me familiariser avec le framework Laravel, en construisant une application de gestion de rendez-vous structurée autour d’un back-office intuitif. J’ai appris à installer, configurer et développer des routes, des contrôleurs, des modèles Eloquent, et à intégrer les migrations de base de données. L’interface permet de créer, consulter, modifier et annuler des rendez-vous, avec une logique de rôles (utilisateur/client/admin) pour l’accès aux pages. Ce projet m’a permis de saisir les atouts de Laravel : artisan, ORM Eloquent, Blade, et une architecture puissante pour les applications métier ."
+  },
+  {
+  	"id": "mon-f5-projet-Norme-2025",
+    "titre": "Apprentissage d’Odoo 18 à travers le module Real Estate — AAOI, Anosivavaka",
+    "description": "Technologies utilisées : Python, Odoo 18, PostgreSQL — Outils : FeatherPad, pgAdmin — Formation — développement modulaire orienté entreprise (2025)",
+    "details": "Ce projet consistait à découvrir le framework Odoo, en m’appuyant sur le module Real Estate comme base pour comprendre la création de modules personnalisés. J’ai appris à installer Odoo 18, à configurer l’environnement avec PostgreSQL, et à intervenir sur les éléments clés d’un module : modèles, vues, actions, menus, contrôleurs. J’ai intégré des logiques métier dans l’environnement Odoo pour mieux structurer des solutions ERP. Ce projet m’a permis de comprendre l’architecture technique d’Odoo et de renforcer mes compétences en développement Python orienté entreprise ."
+  },
+  {
+  	"id": "mon-f6-projet-Norme-2025",
+    "titre": "Découverte de Symfony 7 — Application technique basée sur un manifeste — AAOI, Anosivavaka",
+    "description": "Technologies utilisées : PHP 8.2, Symfony 7, PostgreSQL — Outils : Notepad++, Apache (XAMPP), pgAdmin — Formation — exploration structurée selon only-dev.free.nf (2025)",
+    "details": "Ce projet marque une entrée méthodique dans le framework Symfony, avec un apprentissage structuré autour du manifeste partagé sur only-dev.free.nf . J’ai expérimenté l’installation, la configuration et les premières étapes de développement d’un back-end modulaire, basé sur des entités métiers en PostgreSQL. Ce travail m’a permis d’appréhender la console Symfony, le système de routing, l’architecture MVC étendue, et les fonctionnalités comme Doctrine ORM. L’objectif était de construire une base technique pour des projets professionnels solides. Ce projet représente un point de bascule dans mon parcours PHP vers des solutions plus matures et scalables ."
+  },
+  {
+  	"id": "mon-f7-projet-Norme-2025",
+    "titre": "Développement FullStack assisté par IA du projet Maintso Vola — Louna Agnecy — 2025",
+    "description": "Technologies utilisées : React/Vite, TS/TSX, Shadcn/Tailwind, Supabase — Outils : lovable, VSCode, CodeSandbox, Supabase Studio — Projet réalisé en collaboration — agritech collaborative et scalable .",
+    "details": "    Le projet Maintso Vola vise à créer une plateforme agritech qui connecte les investisseurs, techniciens, agriculteurs et administrateurs dans une logique d’investissement intelligent et piloté. Le développement, assisté par une IA de soutien comme Copilot, suit une architecture FullStack moderne où le front-end est construit avec React/Vite, enrichi par la librairie UI Shadcn et les styles modulaires TailwindCSS. Le back-end est géré par Supabase, avec une base de données évolutive et une gestion d'authentification intégrée. Ce projet m’a permis d’intégrer une logique de rôles (multi-profil), de travailler en environnement serverless et d’optimiser le UX/UI pour une application métier complexe à partir d’une base simple. C’est un bel exemple de montée en puissance par couches fonctionnelles et d’approche agile assistée ."
+  },
+  {
+  	"id": "mon-f8-projet-Norme-2025",
+    "titre": "Développement d’une API REST avec Node.js selon un standard d’apprentissage — 2025",
+    "description": "Technologies utilisées : Express.js, Node.js, PostgreSQL — Outils : FeatherPad, pgAdmin — Réalisé en solo — étude inspirée de only-dev.free.nf",
+    "details": "Ce projet vise à construire une API REST en Node.js avec Express, dans une logique de formation appliquée. En suivant les bonnes pratiques présentées dans le manifeste standard only-dev.free.nf, j’ai appris à structurer une application avec des routes, des contrôleurs, un accès aux données PostgreSQL, et une gestion des requêtes HTTP conforme aux standards REST. Le projet m’a permis de comprendre les bases de l’environnement Node.js, la configuration d’un serveur léger, l’interaction asynchrone avec une base PostgreSQL, et la structuration de l’application dans une optique modulaire. Cette réalisation me donne une base stable pour des futures API métiers ou microservices."
+  },
+  {
+  	"id": "mon-f9-projet-Norme-2025",
+    "titre": "Application ReactJsDev personnalisé assisté par IA — Projet en cours— 2025",
+    "description": "Technologies utilisées : ReactJS, ViteJS, BiomeJS, Bulma — Outils : CodeSandbox, Notepad++ — Référentiel GitHub : Mijoro603/reactJsDev",
+    "details": "Ce projet en cours de développement consiste à construire une base personnalisée de travail sous ReactJS, assistée par une IA (type Copilot) pour accélérer la logique de développement. L’environnement repose sur ViteJS pour un démarrage rapide et une compilation ultra-performante, BiomeJS pour la gestion automatisée du formatage, des erreurs et des conventions de style, et Bulma pour la construction d’une interface élégante et responsive. Ce projet vise à structurer un boilerplate front-end évolutif, adapté aux besoins du développeur solo, avec une logique de composants bien organisée et des outils modernes pour le linting, la documentation et l’intelligence artificielle embarquée. C’est une base technique conçue pour servir à des développements rapides, testables et scalables ."
+  },
+  {
+  	"id": "mon-g0-projet-Norme-2025",
+    "titre": "Application portfolio interactive — 2025",
+    "description": "Technologies utilisées : JSON, Axios, jQuery, Bulma — Outils : FeatherPad — Projet personnel — vitrine technique autonome",
+    "details": "Ce projet consiste à créer une application portfolio dynamique, capable de présenter l’ensemble de mes projets sous forme interactive. Les données sont formatées en JSON, récupérées avec Axios ou via des appels AJAX en jQuery, puis affichées avec des composants visuels stylés grâce à Bulma. L’application tourne avec un serveur local allégé (live-server), rendant son déploiement ultra rapide pour les démonstrations. Ce projet m’a permis de valoriser mes réalisations dans une interface propre, portable et intuitive, tout en renforçant mes compétences en accès aux données côté client et en gestion de contenu structuré ."
   }
 ]

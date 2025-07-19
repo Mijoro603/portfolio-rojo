@@ -1,22 +1,26 @@
 [
   {
     "titre": "Conception web",
-    "description": "Création de sites modernes et responsives, adaptés à vos besoins."
+    "description": "Je conçois des sites web modernes, responsives et sur mesure pour refléter votre image avec clarté et efficacité."
   },
   {
     "titre": "Développement d'applications",
-    "description": "Solutions web personnalisées, frontend et backend inclus."
+    "description": "Je développe des applications web personnalisées, en intégrant parfaitement le frontend et le backend pour répondre à vos besoins métier."
   },
   {
     "titre": "UX/UI Design",
-    "description": "Design ergonomique et expérience utilisateur centrée sur vos clients."
+    "description": "Je crée des interfaces intuitives et esthétiques, centrées sur l’expérience utilisateur pour maximiser l’engagement et la clarté."
   },
   {
     "titre": "SEO & Marketing digital",
-    "description": "Optimisation pour moteurs de recherche et stratégie de visibilité."
+    "description": "J’optimise votre visibilité sur les moteurs de recherche et vous accompagne dans une stratégie digitale qui cible les bons utilisateurs."
   },
   {
     "titre": "Bases de données",
-    "description": "Modélisation, optimisation et maintenance de bases robustes."
+    "description": "Je modélise, configure et maintiens des bases de données performantes, pensées pour la stabilité et la croissance de vos projets."
+  },
+  {
+    "titre": "Prêt à collaborer ?",
+    "description": "<a href='contact.html' class='button is-link has-text-weight-semibold mt-4 mb-2 py-6' style='text-transform: uppercase !important;'>Contactez-moi dès maintenant<br> et transformons vos idées<br> en solutions concrètes</a>"
   }
 ]

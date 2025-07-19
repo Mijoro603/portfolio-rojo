@@ -7,33 +7,43 @@
     "région": "Analamanga",
     "pays": "Madagascar"
   },
-  "profil": "Diplômé de Master II en Génie Logiciel et Base de Données à l'ENI de l'Université de Fianarantsoa, j’accompagne les entreprises dans la conception, l’optimisation et la sécurisation de leurs solutions digitales.",
+  "profil": "Diplômé de Master II en Génie Logiciel et Base de Données à l'École Nationale d'Informatique (ENI) de l'Université de Fianarantsoa, je mobilise mes compétences techniques et mon sens de l’innovation pour accompagner les entreprises dans la conception, le développement et la sécurisation de leurs outils numériques. Je crois fermement que chaque idée mérite une solution digitale claire, efficace et durable.",
   "experience": [
-  	{
-      "poste": "Développeur FullStack web assisté par IA",
+    {
+      "poste": "Développeur web FullStack assisté par IA",
       "organisation": "à Betsizaraina Avaradrano Madagascar",
       "missions": [
-        "Développement d'un application web dont le nom de projet est MAINTSO VOLA",
-        "Frontend: React/Vite, TS/TSX et SHADCN/tailwind",
-        "Backend: Supabase"
+        "Développement d'une application web métier nommée MAINTSO VOLA",
+        "Front-end : React/Vite, TypeScript/TSX, Shadcn, TailwindCSS",
+        "Back-end : Supabase, logique serverless"
+      ]
+    },
+    {
+      "poste": "Formation chez Arkup Academy Océan Indien",
+      "organisation": "à Anosivavaka Antananarivo Madagascar",
+      "missions": [
+        "Apprentissage des principes de développement sous ERP",
+        "Création et personnalisation de modules ODOO 18",
+        "Manipulation de bases de données PostgreSQL 17"
       ]
     },
     {
       "poste": "Responsable informatique",
       "organisation": "à 67 ha Antananarivo Madagascar",
       "missions": [
-        "Gestion des datacenters",
-        "Optimisation d’infrastructure numérique",
-        "Transformation digitale stratégique"
+        "Administration de datacenters et supervision réseau (CISCO)",
+        "Optimisation de l’infrastructure numérique de l’entreprise",
+        "Pilotage de la transformation digitale et maintenance des solutions internes",
+        "Utilisation de l’ERP Odoo dans les processus métier"
       ]
     }
   ],
-  "formation": "Génie Logiciel et Base de Données à l'Ecole Nationale d'Informatique de l'Université de Fianarantsoa",
+  "formation": "Master II en Génie Logiciel et Base de Données — ENI de l'Université de Fianarantsoa",
+  "objectif": "Je transforme les idées en solutions digitales innovantes, robustes et accessibles, en mettant l’accent sur la pérennité, l’autonomie technologique et l’impact utilisateur.",
   "competences": {
-    "frontend": ["HTML5", "CSS3", "JS", "Bootstrap", "SASS (SCSS)", "Bulma", "jQuery", "AngularJs", "Vue.js", "Angular", "React"],
-    "backend": ["PHP", "SQL", "JSX", "PYTHON", "Codeigniter", "Laravel", "Symfony", "NodeJs", "ExpressJs", "Django", "ODOO", "Supabase"],
-    "bdd": ["MySQL", "SQLite", "PostgreSQL", "Oracle", "MongoDB"],
-    "autres": ["Git", "Docker", "Trello", "Github", "UML", "SCRUM"]
-  },
-  "objectif": "Transformer des idées en solutions digitales innovantes, robustes et durables."
+    "frontend": ["HTML5","CSS3","SCSS/SASS","Bootstrap","Bulma","Tailwind/Shadcn","jQuery","JavaScript/JSX","Axios","Vue.js","Angular","React","TypeScript/TSX","XMLHttpRequest/AJAX/fetch","marked.js","highlight.js"],
+    "backend": ["PHP","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Django","Python","jPython","Odoo","API REST"],
+    "bdd": ["MariaDB","MySQL","SQLite","PostgreSQL","mongoDB","Supabase (Services As A Backend on cloud)"],
+    "autres": ["Git/GitHub/GitLab/Ungit","Docker","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","PDO","cURL","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom","Markdown/MDX","jsonplaceholder.typicode.com"]
+  }
 }

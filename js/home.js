@@ -63,12 +63,12 @@ $(document).ready(function () {
             		</div>
             	</div>
             </div>
-            <div id="detailsForm-${item.id}" class="has-text-weight-light p-1" style="display:none; margin-top:-10px;">
+            <div id="detailsForm-${item.id}" class="has-text-weight-light p-1" style="display:none; margin-top:-20px;">
               <div class="content p-1">${item.details}</div>
             </div>
           </div>
         </div>
-      `); // magnifying-glass-plus_phone_square-plus_id-card_id-badge_laptop-code_infinity_house-chimney_handshake-simple_handshake-angle_graduation-cap_github_linkedin_twitter_message_colon-sign_fa-search-plus
+      `);
 
       $container.append($item);
       $item.delay(200).fadeIn(300);

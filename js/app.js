@@ -6,6 +6,29 @@ $(document).ready(function () {
   		});
 	});
 	
+	// Footer
+	const année = new Date().getFullYear();
+
+  	const footerContent = `
+    	<div class="columns is-mobile pl-5 is-multiline is-vcentered">
+      		<div class="column is-half has-text-left">
+        		<ul style="list-style-type: none !important"><li><span class="icon"><i class="fas fa-envelope"></i></span>&nbsp;razosalama12050@gmail.com</li>
+        		<li><span class="icon"><i class="fas fa-phone"></i></span>&nbsp;+261389738352</li>
+      		</div>
+      		<div class="column is-half">
+        		<strong>Retrouvez-moi aussi sur :</strong>
+        		<ul style="list-style-type: none !important"><li>
+          		<a href="https://github.com/Mjoro603" target="_blank">GitHub</a> |
+          		<a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" target="_blank">LinkedIn</a> |
+          		<a href="https://x.com/rajaonasyrojo" target="_blank">X</a>
+        		</li></ul>
+      		</div>
+    	</div>
+    	<div class="is-size-7 has-text-weight-semibold">&copy; ${année} — Tous droits réservés — Auteur : <strong>Rojo</strong> — Réalisé avec : HTML5, CSS3, Bulma 0.9.4, jQuery 3.7.1, Axios 1.8.2 et JSON</div>
+  	`;
+	
+  	$('#portfolio-footer').html(footerContent);
+	
 	// Désactive le clic droit sur toute la page (empêche le menu contextuel)
 	$(document).on("contextmenu", function() {
 	  	return false;

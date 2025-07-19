@@ -1,105 +1,136 @@
+/* ≡ ≡ ≡ BASE ≡ ≡ ≡ */
+
 body {
-  overflow-x: hidden !important; /* Évite le scroll horizontal */
+  overflow-x: hidden !important;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f0faff !important;
+  color: #2d2d2d !important;
+  line-height: 1.6;
 }
 
-/* Écrans de bureau (≥ 1200px) */
+/* ≡ ≡ ≡ TYPOGRAPHIE RESPONSIVE ≡ ≡ ≡ */
+
 @media (min-width: 1200px) {
-  body {
-    font-size: 18px !important;
-  }
+  body { font-size: 18px !important; }
 }
-
-/* Tablettes (768px à 1199px) */
 @media (min-width: 768px) and (max-width: 1199px) {
-  body {
-    font-size: 16px !important;
-    padding: 10px 20px !important; /* Ajoute du padding horizontal */
-  }
+  body { font-size: 16px !important; padding: 10px 20px !important; }
 }
-
-/* Smartphones (480px à 767px) */
 @media (min-width: 480px) and (max-width: 767px) {
   body {
     font-size: 14px !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
   }
-
-  h1.title.is-1 {
-    font-size: 2rem !important; /* Réduit le titre sur mobile */
-  }
+  h1.title.is-1 { font-size: 2rem !important; }
 }
-
-/* Très petits écrans (< 480px) */
 @media (max-width: 479px) {
   body {
     font-size: 12px !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
   }
-
-  h1.title.is-1 {
-    font-size: 1.75rem !important;
-  }
+  h1.title.is-1 { font-size: 1.75rem !important; }
 }
-
-/* Empêche l'impression de la page */
 @media print {
-  body {
-    display: none !important;
-  }
+  body { display: none !important; }
 }
 
-.home, .about, .service, .contact {
-  background-color: #f0faff !important;
-  color: #2d2d2d !important;
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
-}
-
-a.navbar-item.is-active,
-a.navbar-item:hover {
-  background-color: #f0faff!important;
-  color: #0057a3 !important;
-}
+/* ≡ ≡ ≡ NAVBAR ≡ ≡ ≡ */
 
 .navbar {
-  padding: 0 .75rem !important;
-  border-bottom: 1px solid #00aaff !important;
+  padding: 0 0.75rem !important;
+  /* border-bottom: 2px solid #00aaff !important; */
+  background-color: #f0faff;
 }
+
+.navbar-item.is-active,
+.navbar-item:hover {
+  background-color: #e0f3ff !important;
+  color: #0057a3 !important;
+  /* font-weight: bold; */
+}
+
+.navbar-item span.icon {
+  color: #004080;
+}
+
+/* ≡ ≡ ≡ TITRES ≡ ≡ ≡ */
 
 h1.title {
   color: #004080 !important;
   text-transform: uppercase !important;
   border-bottom: 2px solid #0057a3;
+  padding-bottom: 10px;
 }
 
-.button.is-link, .button.is-info {
+h2.subtitle {
+  color: #0057a3;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* ≡ ≡ ≡ BOUTONS ≡ ≡ ≡ */
+
+.button.is-link,
+.button.is-info {
   background-color: #0057a3 !important;
   border-color: #004080 !important;
+  color: white !important;
   transition: 0.3s ease-in-out;
 }
 
-.button.is-link:hover, .button.is-info:hover {
+.button.is-link:hover,
+.button.is-info:hover {
   background-color: #004080 !important;
+  color: #f0faff !important;
 }
 
-.about p:not(:first-child) {
-  border-right: 2px solid #4b0082;
-  border-bottom: 2px solid #4b0082;
+.button.is-light {
+  background-color: #e6f0ff !important;
+  color: #004080 !important;
 }
 
-.about .box {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  border-top: 3px solid #004080;
-  border-right: 5px solid #004080;
-  border-bottom: 5px solid #004080;
-  border-left: 3px solid #004080;
-  transition: transform 0.2s;
+/* ≡ ≡ ≡ FORMULAIRES (CONTACT) ≡ ≡ ≡ */
+
+.field label {
+  color: #004080;
+  font-weight: bold;
 }
 
+.input,
+.textarea {
+  border: 1px solid #00e0c6 !important;
+  background-color: #ffffff;
+  color: #2d2d2d;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #0057a3 !important;
+  box-shadow: 0 0 0 0.125em rgba(0, 87, 163, 0.25);
+}
+
+/* ≡ ≡ ≡ SECTIONS ≡ ≡ ≡ */
+
+.home, .about, .service, .contact {
+  background-color: #f0faff !important;
+}
+
+.about p:not(:first-child),
 .service p {
   border-right: 2px solid #004080;
   border-bottom: 2px solid #004080;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* ≡ ≡ ≡ BOXES ≡ ≡ ≡ */
+
+.about .box {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border: 3px solid #00e0c6;
+  transition: transform 0.2s;
 }
 
 .service .box {
@@ -109,6 +140,28 @@ h1.title {
   transition: transform 0.2s;
 }
 
+.contact .box {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.07);
+  border-left: 4px solid #00e0c6;
+  border-bottom: 4px solid #00e0c6;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+/* ≡ ≡ ≡ HOVER EFFET ≡ ≡ ≡ */
+
 .box:hover {
   transform: translateY(-5px);
+}
+
+/* ≡ ≡ ≡ LIENS SOCIAUX ≡ ≡ ≡ */
+
+.contact a {
+  color: #004080;
+  /* font-weight: 600;
+  text-decoration: underline; */
+}
+
+.contact a:hover {
+  color: #00aaff;
 }
