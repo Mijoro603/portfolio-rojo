@@ -10,11 +10,26 @@ $(document).ready(function () {
   let allItems = [];
   let filteredItems = [];
 
-  init();
+  init(); // Initialise tout sauf fetchData()
+
+  // 🐌 Lazy Load avec Intersection Observer
+  const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        fetchData(); // Charge les projets quand la section apparaît
+        observer.unobserve(entry.target); // Ne recharge pas à chaque scroll
+      }
+    });
+  }, { threshold: 0.25 });
+
+  const projetsSection = document.querySelector('#projets');
+  if (projetsSection) {
+    observer.observe(projetsSection);
+  }
 
   // 🔄 Initialisation complète
   function init() {
-    fetchData();
+    // fetchData(); ← supprimé ici car déclenché par l'observateur
     bindUIEvents();
     animateHeader();
   }

@@ -1,10 +1,40 @@
 $(document).ready(function () {
 	// Ferme la notification (verte ou rouge) quand on clique sur l'icône .delete
-	$('.delete').click(function() {
+	/* $('.delete').click(function() {
   		$('.notification.is-success, .notification.is-danger').slideUp(function() {
     		$(this).empty(); // Nettoie le contenu après avoir disparu
   		});
+	}); */
+	$(document).on('click', '.notification .delete', function () {
+	  	$(this).parent().slideUp(400, () => $(this).parent().remove());
 	});
+	
+	// 🔄 Message de disponibilité dynamique
+  	const dateFinProjet = new Date('2025-07-21');
+  	const aujourdHui = new Date();
+	
+  	let messageHtml = '';
+  	if (aujourdHui >= dateFinProjet) {
+    	// ✅ Disponible
+    	messageHtml = `
+      	<p class="box has-text-success has-text-weight-bold">
+        	✔ Je suis disponible pour un projet dès maintenant. N'hésitez pas à me contacter pour discuter de vos idées.
+      	</p>
+    	`;
+  	} else {
+    	// ❌ Occupé
+    	const optionsDate = { day: 'numeric', month: 'long', year: 'numeric' };
+    	const dateText = dateFinProjet.toLocaleDateString('fr-FR', optionsDate);
+	
+    	messageHtml = `
+      	<p class="box has-text-danger has-text-weight-bold">
+        	✖ Désolé, je suis actuellement engagé sur un projet qui se termine le <strong>${dateText}</strong>.
+        	Je reste disponible pour planifier une future collaboration.
+      	</p>
+    	`;
+  	}
+	
+  	$('#availabilityMessage').html(messageHtml);
 	
 	// Footer
 	const année = new Date().getFullYear();
