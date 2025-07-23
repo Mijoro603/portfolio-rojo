@@ -46,11 +46,12 @@ $(document).ready(function () {
         		<li><span class="icon"><i class="fas fa-phone"></i></span>&nbsp;+261389738352</li>
       		</div>
       		<div class="column is-half">
-        		<strong>Retrouvez-moi aussi sur :</strong>
+        		<strong>Retrouvez-moi sur :</strong>
         		<ul style="list-style-type: none !important"><li>
-          		<a href="https://github.com/Mjoro603" target="_blank">GitHub</a> |
-          		<a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" target="_blank">LinkedIn</a> |
-          		<a href="https://x.com/rajaonasyrojo" target="_blank">X</a>
+          			<a href="https://github.com/Mjoro603" target="_blank">GitHub</a> |
+          			<a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" target="_blank">LinkedIn</a> |
+          			<a href="https://x.com/rajaonasyrojo" target="_blank">X</a> |
+          			<a href="https://www.youtube.com/@ZoSalamaNiaina/posts" target="_blank" rel="noopener noreferrer">Blog de publication sur Youtube</a>
         		</li></ul>
       		</div>
     	</div>

@@ -6,7 +6,16 @@ $(document).ready(function () {
         const data = response.data;
 
         // Profil résumé
-        $('#profil').html(`<p>${data.profil}</p><p class="mt-3">${data.poste} | ${data.secteur}</p>`);
+        $('#profil').html(`
+			<p>${data.profil}</p>
+			<p class="mt-3">${data.poste} | ${data.secteur}</p>
+			<div class="has-text-centered">
+				<a href="./data/Rojo_CV.pdf" download class="button is-link mt-3">
+					<span class="icon"><i class="fas fa-download"></i></span>
+					<span>Télécharger mon CV</span>
+				</a>
+			</div>
+        `);
 
         // Formation
         $('#formation').html(`<h2 class="subtitle is-size-4 is-italic has-text-weight-bold">Formation</h2><p>${data.formation}</p>`);

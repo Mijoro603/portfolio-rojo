@@ -43,7 +43,7 @@
   "competences": {
     "frontend": ["HTML5","CSS3","SCSS/SASS","Bootstrap","Bulma","Tailwind/Shadcn","jQuery","JavaScript/JSX","Axios","Vue.js","Angular","React","TypeScript/TSX","XMLHttpRequest/AJAX/fetch","marked.js","highlight.js"],
     "backend": ["PHP","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Django","Python","jPython","Odoo","API REST"],
-    "bdd": ["MariaDB","MySQL","SQLite","PostgreSQL","mongoDB","Supabase (Services As A Backend on cloud)"],
+    "bdd": ["MariaDB","MySQL","SQLite","PostgreSQL","mongoDB", "Oracle","Supabase (Services As A Backend on cloud)"],
     "autres": ["Git/GitHub/GitLab/Ungit","Docker","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","PDO","cURL","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom","Markdown/MDX","jsonplaceholder.typicode.com"]
   }
 }

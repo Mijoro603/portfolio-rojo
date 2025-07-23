@@ -7,7 +7,8 @@ $(document).ready(function () {
   	const message = $('#message').val().trim();
 	
   	if (!nom || !email || !message) {
-    	alert("Veuillez remplir tous les champs.");
+    	// alert("Veuillez remplir tous les champs.");
+    	showNotification('Veuillez remplir tous les champs.', 'is-danger')
     	return;
   	}
 	
@@ -26,7 +27,7 @@ $(document).ready(function () {
         	$('#contactForm')[0].reset(); // Réinitialise le formulaire
       	})
       	.catch(error => {
-        	console.error("Erreur Formspree :", error);
+        	// console.error("Erreur Formspree :", error);
         	showNotification('Une erreur est survenue lors de l’envoi. Veuillez réessayer plus tard.', 'is-danger');
       	});
   	});
