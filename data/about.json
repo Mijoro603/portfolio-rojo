@@ -42,8 +42,8 @@
   "objectif": "Je transforme les idées en solutions digitales innovantes, robustes et accessibles, en mettant l’accent sur la pérennité, l’autonomie technologique et l’impact utilisateur.",
   "competences": {
     "frontend": ["HTML5","CSS3","SCSS/SASS","Bootstrap","Bulma","Tailwind/Shadcn","jQuery","JavaScript/JSX","Axios","Vue.js","Angular","React","TypeScript/TSX","XMLHttpRequest/AJAX/fetch","marked.js","highlight.js"],
-    "backend": ["PHP","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Django","Python","jPython","Odoo","API REST"],
+    "backend": ["PHP","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Django","Python","jPython","Odoo","API REST", "JAVA", "Spring boot"],
     "bdd": ["MariaDB","MySQL","SQLite","PostgreSQL","mongoDB", "Oracle","Supabase (Services As A Backend on cloud)"],
-    "autres": ["Git/GitHub/GitLab/Ungit","Docker","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","PDO","cURL","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom","Markdown/MDX","jsonplaceholder.typicode.com"]
+    "autres": ["Git/GitHub/GitLab/Ungit", "C/C++/C#", "Go", "Ruby", "Rust","Docker", "JIRA","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","PDO","cURL","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom/Google photos/Google Search Console/Google Agenda/Google forms/Google NotebookLM","Markdown/MDX","jsonplaceholder.typicode.com"]
   }
 }
