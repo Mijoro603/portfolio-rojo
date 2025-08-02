@@ -10,7 +10,7 @@ $(document).ready(function () {
 	});
 	
 	// 🔄 Message de disponibilité dynamique
-  	const dateFinProjet = new Date('2025-07-21');
+  	const dateFinProjet = new Date('2025-07-24');
   	const aujourdHui = new Date();
 	
   	let messageHtml = '';
