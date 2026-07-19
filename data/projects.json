@@ -356,7 +356,67 @@
   {
   	"id": "mon-g0-projet-Norme-2025",
     "titre": "Application portfolio interactive — 2025",
-    "description": "Technologies utilisées : JSON, Axios, jQuery, Bulma — Outils : FeatherPad — Projet personnel — vitrine technique autonome",
-    "details": "Ce projet consiste à créer une application portfolio dynamique, capable de présenter l’ensemble de mes projets sous forme interactive. Les données sont formatées en JSON, récupérées avec Axios ou via des appels AJAX en jQuery, puis affichées avec des composants visuels stylés grâce à Bulma. L’application tourne avec un serveur local allégé (live-server), rendant son déploiement ultra rapide pour les démonstrations. Ce projet m’a permis de valoriser mes réalisations dans une interface propre, portable et intuitive, tout en renforçant mes compétences en accès aux données côté client et en gestion de contenu structuré ."
+    "description": "Technologies utilisées : JSON, Axios, jQuery, TailwindCss — Outils : Kimi — Projet personnel — vitrine technique autonome",
+    "details": "Ce projet consiste à créer une application portfolio dynamique, capable de présenter l’ensemble de mes projets sous forme interactive. Les données sont formatées en JSON, récupérées avec Axios ou via des appels AJAX en jQuery, puis affichées avec des composants visuels stylés grâce à TailwindCss. L’application tourne avec un serveur local allégé (live-server), rendant son déploiement ultra rapide pour les démonstrations. Ce projet m’a permis de valoriser mes réalisations dans une interface propre, portable et intuitive, tout en renforçant mes compétences en accès aux données côté client et en gestion de contenu structuré ."
+  },
+  {
+    "id": "mon-g1-projet-Norme-2025",
+    "titre": "Formation ERP Odoo — Arkup Academy Océan Indien — Mai 2025",
+    "description": "Technologies utilisées : Odoo 18, PostgreSQL 17 — Outils : pgAdmin — Formation professionnelle — ERP orienté entreprise",
+    "details": "Conception et personnalisation de modules Odoo 18, expertise approfondie en PostgreSQL 17. Encadré par des spécialistes ERP (Mr Sandratra et Mr Brice, Etech Consulting)."
+  },
+  {
+    "id": "mon-g2-projet-Norme-2025",
+    "titre": "Projet Maintso Vola Agritech — Juin 2025",
+    "description": "Technologies utilisées : React/Vite, TypeScript/TSX, Shadcn UI, TailwindCSS, Supabase — Outils : VSCode, Supabase Studio — Projet FullStack — agritech collaborative",
+    "details": "Développement d’une plateforme collaborative dans le secteur agritech. Frontend en React/Vite avec Shadcn UI et TailwindCSS, backend Supabase serverless avec gestion multi-profils et authentification. UX/UI optimisé, méthodologie agile assistée par IA."
+  },
+  {
+    "id": "mon-g3-projet-Norme-2025",
+    "titre": "Responsable plateforme web & formateur — Nov 2025 à Jan 2026",
+    "description": "Technologies utilisées : WordPress — Outils : CMS — Expérience professionnelle — maintenance et relooking",
+    "details": "Maintenance et relooking des sites web NosyLand (décembre 2025) et Sparoquemaure (janvier 2026). Gestion de plateforme web et formation locale."
+  },
+  {
+    "id": "mon-g4-projet-Norme-2025",
+    "titre": "Formation Flutter — Orange Digital Center — Novembre 2025",
+    "description": "Technologies utilisées : Flutter — Outils : VS Code, Android/iOS — Formation spécialisée — développement mobile multiplateforme",
+    "details": "Formation centrée sur la création d’applications compatibles Android et iOS. Approfondissement du concept 'Tout est un Widget' pour concevoir des interfaces modernes et dynamiques. Encadré par Mr Jonathan."
+  },
+  {
+    "id": "mon-g5-projet-Norme-2025",
+    "titre": "DevFest Hackathon – Antsirabe — Octobre 2025",
+    "description": "Technologies utilisées : Flask (Python), PostgreSQL, Bootstrap, face_recognition — Outils : VS Code, IA & base de données — Projet collectif — sécurité et gestion",
+    "details": "Élaboration d’un système intelligent de gestion des présences et détection d’intrusions par reconnaissance faciale. Backend en Flask, base de données PostgreSQL, frontend en Bootstrap."
+  },
+  {
+    "id": "mon-g6-projet-Norme-2025",
+    "titre": "DevFest Hackathon – NextA & École 42 — Décembre 2025",
+    "description": "Technologies utilisées : Flutter, Django (Python), IA Deepfake — Outils : VS Code, Mobile & Backend — Projet collectif — cybersécurité et détection multimédia",
+    "details": "Projet IA Détecteur de Deepfakes visant à renforcer la sécurité en ligne et combattre la désinformation. Frontend mobile développé en Flutter, Backend en Django avec intégration d’IA pour le traitement audio, image et vidéo."
+  },
+  {
+    "id": "mon-g7-projet-Norme-2026",
+    "titre": "Documentation technique — Mars 2026",
+    "description": "Technologies utilisées : live-server, marked.js et jQuery — Outils : VS Code — Projet personnel — exploration de documentation dynamique",
+    "details": "Création d’une documentation technique affichée en temps réel via live-server et interprétée avec la librairie marked.js et jQuery. Objectif : tester la génération et le rendu de fichiers Markdown dans une interface simple et portable."
+  },
+  {
+    "id": "mon-g8-projet-Norme-2026",
+    "titre": "Documentation technique — Avril 2026",
+    "description": "Technologies utilisées : live-server, markdown-it et jQuery — Outils : VS Code — Projet personnel — alternative de parsing Markdown",
+    "details": "Expérimentation de la librairie markdown-it et jQuery pour parser et afficher des fichiers Markdown. Utilisation de live-server pour un rendu immédiat et comparaison avec marked.js afin d’évaluer la flexibilité et la compatibilité des deux solutions."
+  },
+  {
+    "id": "mon-g9-projet-Norme-2026",
+    "titre": "Hackathon – Symposium Cybersécurité Madagascar — Juin 2026",
+    "description": "Technologies utilisées : FastAPI, Bulma, jQuery, Axios, IA Mammouth GPT-5-nano — Outils : VS Code, JSON DB — Projet collectif — détection automatique de la déforestation",
+    "details": "Projet Short Fire Dashboard pour la détection automatique de la déforestation à partir d'images satellitaires et de capteurs IoT géolocalisés. Exploitation du modèle GPT-5-nano de l’IA Mammouth pour la vision par ordinateur. Back End en FastAPI avec fichiers JSON comme base de données, Front End en Bulma/jQuery/Axios."
+  },
+  {
+    "id": "mon-h0-projet-Norme-2026",
+    "titre": "Documentation technique — Juillet 2026",
+    "description": "Technologies utilisées : mkdocs — Outils : VS Code, Python, YAML — Projet personnel — génération de sites statiques de documentation",
+    "details": "Mise en place d’un site statique de documentation avec mkdocs. Organisation des fichiers Markdown en sections, configuration via YAML, et déploiement rapide pour une documentation technique professionnelle et structurée."
   }
 ]

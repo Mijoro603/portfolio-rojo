@@ -3,147 +3,296 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Accueil – Rojo Portfolio</title>
-
-  <!-- SEO -->
+  <title>Zo Rojo Portfolio</title>
   <meta name="google-site-verification" content="nC23WjS8YToB65y0wvsoXDQtNjEtH-tJM6mwR9qWaGY" />
-  <meta name="description" content="Découvrez les réalisations web de Rojo, FullStack developer avec React, Vue, Angular, Laravel, Symfony, CodeIgniter, Node.js, Express.js, MySQL et PostgreSQL" />
-  <meta name="author" content="Rojo" />
-  <!-- Format .ico (supporté par la plupart des navigateurs de bureau) -->
+  <meta name="description" content="Découvrez les réalisations web de Zo Rojo, FullStack developer avec React, Vue, Angular, Laravel, Symfony, CodeIgniter, Node.js, Express.js, MySQL et PostgreSQL" />
+  <meta name="author" content="Zo Rojo" />
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  
-  <!-- Format .png (utile pour les navigateurs modernes ou mobiles) -->
   <link rel="icon" type="image/png" href="./favicon.png" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./css/style.css" />
-
+  <link rel="stylesheet" href="./css/tailwind.css" />
 </head>
-<body class="home">
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-100 min-h-screen">
 
-  <div class="container">
-    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item has-text-weight-bold is-size-5" href="index.html">
-          Portfolio Rojo
-        </a>
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+  <!-- NEURO: Header sticky avec backdrop-blur = ancrage visuel constant, réassurance de navigation partout -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between h-16" role="navigation" aria-label="main navigation">
+        <a href="#hero" class="text-xl font-bold gradient-text hover:opacity-80 transition-opacity duration-300">Portfolio Zo Rojo</a>
+        <div class="hidden md:flex items-center space-x-1">
+          <a href="#hero" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300"><i class="fas fa-house-chimney mr-1"></i>Accueil</a>
+          <a href="#about" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300"><i class="fas fa-id-badge mr-1"></i>À propos</a>
+          <a href="#staks" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300"><i class="fas fa-layer-group mr-1"></i>Stacks</a>
+          <a href="#services" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300"><i class="fas fa-briefcase mr-1"></i>Services</a>
+          <a href="#projets" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300"><i class="fas fa-folder-open mr-1"></i>Portfolio</a>
+          <!-- NEURO: CTA principal en haut à droite = parcours visuel en Z, incitation immédiate -->
+          <a href="#contact" class="ml-4 px-5 py-2 bg-brand-accent text-white text-sm font-bold rounded-full pulse-ring hover:bg-red-600 transition-all duration-300 hover:-translate-y-0.5 shadow-lg"><i class="fas fa-paper-plane mr-1"></i>Me contacter</a>
+        </div>
+        <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/10 transition-all" aria-label="menu" aria-expanded="false"><i class="fas fa-bars text-xl"></i></button>
+      </nav>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden glass border-t border-white/10">
+      <div class="px-4 py-3 space-y-1">
+        <a href="#hero" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all"><i class="fas fa-house-chimney mr-2 w-5"></i>Accueil</a>
+        <a href="#about" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all"><i class="fas fa-id-badge mr-2 w-5"></i>À propos</a>
+        <a href="#staks" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all"><i class="fas fa-layer-group mr-2 w-5"></i>Stacks</a>
+        <a href="#services" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all"><i class="fas fa-briefcase mr-2 w-5"></i>Services</a>
+        <a href="#projets" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 transition-all"><i class="fas fa-folder-open mr-2 w-5"></i>Portfolio</a>
+        <a href="#contact" class="block mt-2 px-5 py-3 bg-brand-accent text-white text-center text-sm font-bold rounded-full pulse-ring"><i class="fas fa-paper-plane mr-1"></i>Me contacter</a>
       </div>
+    </div>
+  </header>
 
-      <div id="navMenu" class="navbar-menu">
-        <div class="navbar-end">
-          <a href="index.html" class="navbar-item"><span class="icon"><i class="fas fa-house-chimney"></i></span>&nbsp;Accueil</a>
-          <a href="about.html" class="navbar-item"><span class="icon"><i class="fas fa-id-badge"></i></span>&nbsp;À propos</a>
-          <a href="services.html" class="navbar-item"><span class="icon"><i class="fas fa-laptop-code"></i></span>&nbsp;Services</a>
-          <a href="contact.html" class="navbar-item"><span class="icon"><i class="fas fa-phone"></i></span>&nbsp;Contact</a>
+  <!-- ==================== HERO ==================== -->
+  <section id="hero" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-brand-primary/10 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-brand-secondary/5 rounded-full blur-3xl"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-accent/5 rounded-full blur-3xl"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="text-center lg:text-left animate-fade-in-up">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+            <span class="text-white">Bonjour, je suis</span><br><span class="gradient-text">Zo Rojo</span>
+          </h1>
+          <p class="text-xl sm:text-2xl text-brand-primary font-semibold mb-4">Développeur FullStack | PHP | Python | Data Analysis | Agent IA | Data Science</p>
+          <p class="text-lg text-slate-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">Je conçois et développe des solutions web robustes, avec une spécialisation affirmée dans l'Administration de Système de Gestion de Bases de Données Relationnelles (SGBDR). Chaque projet est pour moi une opportunité d'allier performance, simplicité et fiabilité.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="#contact" class="px-8 py-4 bg-brand-accent text-white font-bold rounded-full pulse-ring hover:bg-red-600 transition-all duration-300 hover:-translate-y-1 shadow-lg shadow-brand-accent/30 text-center"><i class="fas fa-paper-plane mr-2"></i>Me contacter</a>
+            <a href="#projets" class="px-8 py-4 bg-white/10 text-white font-bold rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 text-center backdrop-blur-sm"><i class="fas fa-eye mr-2"></i>Voir mes projets</a>
+          </div>
+          <div class="mt-12 animate-float hidden lg:block">
+            <a href="#about" class="inline-flex flex-col items-center text-slate-500 hover:text-brand-primary transition-colors">
+              <span class="text-xs uppercase tracking-widest mb-2">Découvrir</span><i class="fas fa-chevron-down text-2xl"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-center lg:justify-end animate-fade-in-up" style="animation-delay:0.2s">
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-primary to-brand-secondary rounded-full blur-2xl opacity-30 scale-110"></div>
+            <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-brand-primary/50 shadow-2xl shadow-brand-primary/20">
+              <img src="zo_rojo.png" alt="Image portfolio Zo Rojo" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute -top-2 -right-2 px-3 py-1 bg-brand-primary text-white text-xs font-bold rounded-full shadow-lg"><i class="fas fa-code mr-1"></i>7+ ans</div>
+            <div class="absolute -bottom-2 -left-2 px-3 py-1 bg-brand-secondary text-slate-900 text-xs font-bold rounded-full shadow-lg"><i class="fas fa-database mr-1"></i>SGBDR Expert</div>
+          </div>
         </div>
       </div>
-    </nav>
-  </div>
-
-  <section class="section" aria-label="Accueil">
-    <div class="container">
-      <section class="section">
-      	<h1 class="title is-2">Bonjour et bienvenue sur mon portfolio</h1>
-		<div class="card">
-  			<div class="card-content">
-    			<div class="media">
-      			<div class="media-left">
-        			<figure class="image is-128x128">
-          				<img src="rojo.jpg" class="is-rounded" alt="Image portfolio Rojo">
-        			</figure>
-      			</div>
-      			<div class="media-content">
-        			<p class="subtitle is-4">Je suis <strong>RAKOTOMANANA Zosalama Rojoniaina</strong>, mais tout le monde m'appelle <strong>Rojo</strong> . En tant que <strong>Développeur FullStack</strong>, je conçois et développe des solutions web robustes, avec une spécialisation affirmée dans l’<strong>Administration de Système de Gestion de Bases de Données Relationnelles (SGBDR)</strong>. Chaque projet est pour moi une opportunité d’allier performance, simplicité et fiabilité.</p>
-      			</div>
-    			</div>
-  			</div>
-		</div>
-
-      </section>
-      
-      <section class="section">
-		<h2 class="subtitle has-text-centered has-text-weight-bold is-4">Découvrez mes réalisations web; des projets conçus avec précision, performance et passion.</h2>
-		<p class="subtitle is-5">Mes projets reflètent une expertise technique affirmée et une volonté constante de simplification intelligente. Chaque réalisation est portée par une approche rigoureuse, centrée sur la performance, la clarté fonctionnelle et l’efficacité métier. Je m’appuie sur des valeurs qui me définissent : le Courage pour oser, la Discipline pour structurer, la Simplicité pour rendre accessible, le Travail pour concrétiser, la Patience pour stabiliser et la Réussite comme engagement final .</p>
-		
-		<div class="tabs is-right search">
-			<ul><li class="has-text-weight-semibold">
-				<span class="icon">
-					<i class="fas fa-magnifying-glass-plus"></i>
-				</span>
-				<span>Rechercher</span>
-			</li></ul>
-		</div>
-
-        <!-- Barre de recherche -->
-        <div class="field has-addons" style="display:none;">
-            <div class="control is-expanded">
-                <input class="input is-small" type="text" id="searchInput" placeholder="Champs de recherche des projets réaliser...">
-            </div>
-            <div class="control">
-                <button class="button is-info is-responsive is-small" id="searchButton">
-					<span class="icon">
-						<i class="fas fa-search"></i>
-					</span>
-                    <span>Rechercher</span>
-                </button>
-            </div>
-            <div class="control">
-                <button class="button is-light is-responsive is-small" id="resetSearch">
-					<span class="icon">
-						<i class="fas fa-refresh"></i>
-					</span>
-                    <span>Actualiser</span>
-                </button>
-            </div>
-        </div>
-      
-      <div id="projets" class="columns is-multiline is-vcentered"></div>
-      <nav class="pagination is-centered is-rounded is-small mt-4" role="navigation" aria-label="pagination">
-  		<a id="prevPage" class="pagination-previous">Précédent</a>
-  		<a id="nextPage" class="pagination-next">Suivant</a>
-  		<ul class="pagination-list" id="paginationNumbers"></ul>
-		</nav>
-    </section>
     </div>
   </section>
-  <section class="section">
-  	<h2 class="subtitle has-text-centered has-text-weight-bold is-size-4">Propulsez votre présence digitale et transformons votre vision en réalité web</h2>
-  	<div class="columns">
-  		<div class="column is-12-mobile is-6-tablet is-6-desktop">
-  			<p class="is-size-5">
-  				Solutions personnalisées en développement web, design, bases de données et marketing digital, créées pour vos objectifs concrets.<br>
-  				<a href="services.html" class="button is-link has-text-weight-semibold" style="text-transform: uppercase !important;">
-    				🚀 Découvrez mes services & faites décoller votre projet
-  				</a>
-			</p>
-  		</div>
-  		<div class="column is-12-mobile is-6-tablet is-6-desktop">
-			<p class="is-size-5">
-  				Besoin d’une solution digitale performante ? Contactez-moi pour toute demande ou collaboration à <a href="contact.html" class="has-text-danger has-text-weight-bold">razosalama12050@gmail.com</a> ou au <a href="contact.html" class="contact has-text-weight-bold">+261389738352</a>.<br>
-  				<a href="contact.html" class="button is-link has-text-weight-semibold" style="text-transform: uppercase !important;">
-    				✉️ Discutons de votre projet dès aujourd'hui
-  				</a>
-			</p>
-  		</div>
-  	</div>
+
+  <!-- ==================== À PROPOS ==================== -->
+  <section id="about" class="py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-800/30 to-transparent pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16">
+        <span class="text-brand-primary text-sm font-bold uppercase tracking-widest">À propos</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-4"><span class="gradient-text">Qui suis-je ?</span></h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full"></div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div class="glass rounded-2xl p-8 card-glow transition-all duration-500">
+          <div class="flex flex-col sm:flex-row items-center gap-6 mb-6">
+            <div class="relative flex-shrink-0">
+              <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-brand-primary shadow-lg shadow-brand-primary/30">
+                <img src="zo_rojo.png" alt="Zo Rojo" class="w-full h-full object-cover">
+              </div>
+              <div class="absolute -bottom-1 -right-1 w-8 h-8 bg-green-500 rounded-full border-2 border-slate-900 flex items-center justify-center"><i class="fas fa-check text-white text-xs"></i></div>
+            </div>
+            <div class="text-center sm:text-left">
+              <h3 class="text-2xl font-bold text-white">RAKOTOMANANA Zosalama Rojoniaina</h3>
+              <p class="text-brand-primary font-semibold">Zo Rojo</p>
+              <p class="text-slate-400 text-sm mt-1">Antananarivo, Madagascar</p>
+            </div>
+          </div>
+          <div id="profil" class="text-slate-300 leading-relaxed mb-6"></div>
+          <div class="flex flex-wrap gap-3" id="about-badges"></div>
+          <div class="space-y-6 mt-6">
+            <div id="formation" class="glass rounded-2xl p-6 card-glow transition-all duration-500 hover:-translate-y-1"></div>
+            <div id="objectif" class="glass rounded-2xl p-6 card-glow transition-all duration-500 hover:-translate-y-1"></div>
+          </div>
+          <div class="mt-6 pt-6 border-t border-white/10">
+            <a href="./data/CV_Zo_Rojo.pdf" download class="inline-flex items-center px-6 py-3 bg-brand-primary/20 text-brand-primary font-semibold rounded-full border border-brand-primary/30 hover:bg-brand-primary/30 transition-all duration-300 hover:-translate-y-0.5"><i class="fas fa-download mr-2"></i>Télécharger mon CV</a>
+          </div>
+          <div class="inline-flex items-center mt-6 px-4 py-2 rounded-full bg-brand-secondary/10 border border-brand-secondary/30 text-brand-secondary text-sm font-semibold mb-6">
+            <span class="w-2 h-2 bg-brand-secondary rounded-full animate-pulse"></span>&emsp;Disponible pour 2 projets ce trimestre
+          </div>
+        </div>
+        <div class="space-y-6">
+          <div id="experience" class="glass rounded-2xl p-6 card-glow transition-all duration-500 hover:-translate-y-1"></div>
+        </div>
+      </div>
+    </div>
   </section>
-  
-  <footer class="footer has-background-light mt-6">
-    <div class="content has-text-centered" id="portfolio-footer">
+
+  <!-- ==================== STACKS (Compétences techniques) ==================== -->
+  <section id="staks" class="py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-800/30 via-transparent to-slate-800/30 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16">
+        <span class="text-brand-secondary text-sm font-bold uppercase tracking-widest">Expertise technique</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-4"><span class="gradient-text">Mes Stacks</span></h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Un éventail de technologies maîtrisées pour répondre à tous vos besoins digitaux, du frontend au backend en passant par l'administration de bases de données.</p>
+        <div class="w-20 h-1 bg-gradient-to-r from-brand-secondary to-brand-primary mx-auto rounded-full mt-4"></div>
+      </div>
+      <div id="competences" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="glass rounded-xl p-6 card-glow transition-all duration-500 hover:-translate-y-1">
+          <h4 class="text-brand-primary font-bold mb-4 flex items-center gap-2"><i class="fas fa-laptop-code"></i> Frontend</h4>
+          <ul id="frontend" class="space-y-2 text-sm text-slate-300"></ul>
+        </div>
+        <div class="glass rounded-xl p-6 card-glow transition-all duration-500 hover:-translate-y-1">
+          <h4 class="text-brand-accent font-bold mb-4 flex items-center gap-2"><i class="fas fa-server"></i> Backend</h4>
+          <ul id="backend" class="space-y-2 text-sm text-slate-300"></ul>
+        </div>
+        <div class="glass rounded-xl p-6 card-glow transition-all duration-500 hover:-translate-y-1">
+          <h4 class="text-brand-secondary font-bold mb-4 flex items-center gap-2"><i class="fas fa-database"></i> Bases de données</h4>
+          <ul id="bdd" class="space-y-2 text-sm text-slate-300"></ul>
+        </div>
+        <div class="glass rounded-xl p-6 card-glow transition-all duration-500 hover:-translate-y-1">
+          <h4 class="text-slate-400 font-bold mb-4 flex items-center gap-2"><i class="fas fa-tools"></i> Autres</h4>
+          <ul id="autres" class="space-y-2 text-sm text-slate-300"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section id="services" class="py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-800/30 via-transparent to-slate-800/30 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16">
+        <span class="text-brand-secondary text-sm font-bold uppercase tracking-widest">Ce que je propose</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-4"><span class="gradient-text">Mes Services</span></h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-brand-secondary to-brand-primary mx-auto rounded-full"></div>
+      </div>
+      <div id="services-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      <div class="mt-12" id="horaires"></div>
+    </div>
+  </section>
+
+  <!-- ==================== PORTFOLIO (Projets) ==================== -->
+  <section id="projets" class="py-20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="text-brand-primary text-sm font-bold uppercase tracking-widest">Portfolio</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-4"><span class="gradient-text">Découvrez mes réalisations web</span></h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Des projets conçus avec précision, performance et passion. Chaque réalisation est portée par une approche rigoureuse, centrée sur la performance, la clarté fonctionnelle et l'efficacité métier.</p>
+        <div class="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-accent mx-auto rounded-full mt-4"></div>
+      </div>
+      <div class="max-w-xl mx-auto mb-12">
+        <div class="flex gap-2">
+          <div class="flex-1 relative">
+            <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"></i>
+            <input type="text" id="searchInput" placeholder="Rechercher un projet..." class="w-full pl-12 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-full text-slate-100 placeholder-slate-500 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all">
+          </div>
+          <button id="searchButton" class="px-6 py-3 bg-brand-primary text-white font-semibold rounded-full hover:bg-blue-500 transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-brand-primary/30"><i class="fas fa-search mr-1"></i>Rechercher</button>
+          <button id="resetSearch" class="px-4 py-3 bg-slate-800 text-slate-400 rounded-full hover:bg-slate-700 hover:text-white transition-all duration-300"><i class="fas fa-refresh"></i></button>
+        </div>
+      </div>
+      <div id="projets-grid" class="grid sm:grid-cols-2 gap-6"></div>
+      <div class="mt-12 flex flex-wrap items-center justify-center gap-2" id="pagination">
+        <button id="prevPage" class="px-3 py-2 rounded-full bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed text-sm"><i class="fas fa-chevron-left mr-1"></i><span class="hidden sm:inline">Précédent</span></button>
+        <div id="paginationNumbers" class="flex flex-wrap justify-center gap-1 max-w-[280px] sm:max-w-none"></div>
+        <button id="nextPage" class="px-3 py-2 rounded-full bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed text-sm"><span class="hidden sm:inline">Suivant</span><i class="fas fa-chevron-right ml-1"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-800/30 to-slate-900 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16">
+        <span class="text-brand-accent text-sm font-bold uppercase tracking-widest">Collaborons</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-4"><span class="gradient-text">Contactez-moi</span></h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-brand-accent to-brand-primary mx-auto rounded-full"></div>
+      </div>
+      <div class="grid lg:grid-cols-5 gap-12">
+        <div class="lg:col-span-2 space-y-8">
+          <div class="glass rounded-2xl p-8 card-glow">
+            <h3 class="text-xl font-bold text-white mb-6">Informations de contact</h3>
+            <ul class="space-y-4">
+              <li class="flex items-center gap-3 text-slate-300">
+                <div class="w-10 h-10 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary"><i class="fas fa-envelope"></i></div>
+                <span>razosalama12050@gmail.com</span>
+              </li>
+              <li class="flex items-center gap-3 text-slate-300">
+                <div class="w-10 h-10 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary"><i class="fas fa-phone"></i></div>
+                <span>+261340513372</span>
+              </li>
+              <li class="flex items-center gap-3 text-slate-300">
+                <div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-400"><i class="fab fa-whatsapp"></i></div>
+                <span>+261330820002</span>
+              </li>
+              <li class="flex items-center gap-3 text-slate-300">
+                <div class="w-10 h-10 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary"><i class="fas fa-map-marker-alt"></i></div>
+                <span>Antananarivo, Analamanga, Madagascar</span>
+              </li>
+              <li class="flex items-center gap-3 text-slate-300">
+                <div class="w-10 h-10 rounded-full bg-brand-secondary/20 flex items-center justify-center text-brand-secondary"><i class="fas fa-briefcase"></i></div>
+                <span>Plus de 7 ans d'expérience</span>
+              </li>
+            </ul>
+            <div class="mt-8 pt-6 border-t border-white/10">
+              <p class="text-slate-400 text-sm mb-4">Retrouvez-moi sur :</p>
+              <div class="flex flex-wrap gap-3">
+                <a href="https://github.com/Mjoro603" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/rojoniaina-zosalama-rakotomanana-7b324186" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/rajaonasyrojo" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@ZoSalamaNiaina/posts" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div id="availabilityMessage"></div>
+        </div>
+        <div class="lg:col-span-3">
+          <div class="glass rounded-2xl p-8 card-glow">
+            <h3 class="text-xl font-bold text-white mb-2">Demande de service ou collaboration</h3>
+            <p class="text-slate-400 text-sm mb-6"><strong class="text-brand-accent">NB:</strong> Pour envoyer ce formulaire, vous devez être connecté à votre adresse e-mail.</p>
+            <form id="contactForm" class="space-y-5">
+              <div>
+                <label for="nom" class="block text-sm font-medium text-slate-300 mb-2">Nom ou téléphone <span class="text-brand-accent">*</span></label>
+                <input type="text" id="nom" name="nom" required placeholder="Nom et prénoms ou numéro téléphone" class="w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-600 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all">
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Email <span class="text-brand-accent">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="votre-email@gmail.com" class="w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-600 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all">
+              </div>
+              <div>
+                <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Message <span class="text-brand-accent">*</span></label>
+                <textarea id="message" name="message" required rows="5" class="w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-600 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all resize-none"></textarea>
+              </div>
+              <button type="submit" class="w-full px-8 py-4 bg-brand-accent text-white font-bold rounded-full pulse-ring hover:bg-red-600 transition-all duration-300 hover:-translate-y-1 shadow-lg shadow-brand-accent/30"><i class="fas fa-paper-plane mr-2"></i>Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEURO: CTA intermédiaire = relance de conversion avant le footer -->
+  <section class="py-16 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-brand-primary/10 to-brand-secondary/10 pointer-events-none"></div>
+    <div class="max-w-4xl mx-auto px-4 text-center relative">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Propulsez votre présence digitale</h2>
+      <p class="text-slate-400 mb-8">Transformons votre vision en réalité web. Solutions personnalisées en développement web, design, bases de données et marketing digital.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#services" class="px-8 py-4 bg-brand-accent text-white font-bold rounded-full pulse-ring hover:bg-red-600 transition-all duration-300 hover:-translate-y-1 shadow-lg"><i class="fas fa-rocket mr-2"></i>Découvrez mes services</a>
+        <a href="#contact" class="px-8 py-4 bg-white/10 text-white font-bold rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-1"><i class="fas fa-envelope mr-2"></i>Discutons de votre projet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEURO: Footer minimaliste = pas de distraction, info essentielle, crédibilité -->
+  <footer class="border-t border-white/10 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="portfolio-footer"></div>
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.8.2/dist/axios.min.js"></script>
-  <script src="./js/home.js" defer></script>
-  <script src="./js/app.js" defer></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "nom": "Portfolio Rojo",
-  "poste": "WEBMASTER",
+  "poste": "WEBMASTER & TECH Architect",
   "secteur": "Technologies de l'information",
   "localisation": {
     "ville": "Antananarivo",
@@ -9,6 +9,49 @@
   },
   "profil": "Diplômé de Master II en Génie Logiciel et Base de Données à l'École Nationale d'Informatique (ENI) de l'Université de Fianarantsoa, je mobilise mes compétences techniques et mon sens de l’innovation pour accompagner les entreprises dans la conception, le développement et la sécurisation de leurs outils numériques. Je crois fermement que chaque idée mérite une solution digitale claire, efficace et durable.",
   "experience": [
+    {
+      "poste": "Hackathon – Symposium de la Cybersécurité Madagascar",
+      "organisation": "à Novotel Convention & Spa, Antananarivo – 22-23 Juin 2026",
+      "missions": [
+        "Projet Short Fire web application dashboard pour la Détection automatique de la déforestation à partir d'images satellitaires et de capteurs IoT géolocalisés par intelligence artificielle et vision par ordinateur en utilisant le modèle `\"model\":\"gpt-5-nano\"` de l’IA Mammouth",
+        "Front-end : Bulma, jQuery, json DB et Axios.",
+        "Back-end : FastAPI utilisant des fichiers json comme base de données."
+      ]
+    },
+    {
+      "poste": "DevFest 2025 Hackathоn",
+      "organisation": "à NextA et Ecole 42, Andraharo, Antananarivo – 6-7 Décembre 2025",
+      "missions": [
+        "Prоjet IA : Détecteur dе Deepfakеs. L'оbjeсtif principal est dе renfоrсеr la sécurité еn ligne tоut en cоmbаttant la désinfоrmatiоn еt les fraudеs assосiées auх deepfakes.",
+        "Front-end : Fluttеr",
+        "Back-end : Djangо (Pythоn), Intelligence аrtificiеlle еt détectiоn des deеpfakes et Traitеmеnt audiо, imаge еt vidéо"
+      ]
+    },
+    {
+      "poste": "Formation professionnelle en Flutter – Orange Digitаl Centеr",
+      "organisation": "à Gara Sоarаnо, Antananarivo – 17 - 21 Novembre 2025",
+      "missions": [
+        "Fоrmatiоn spécialisée еn dévelоppеment mоbile avec Flutter, сеntréе sur la créatiоn d'appliсatiоns cоmpаtiblеs avec plusieurs plаtefоrmеs (Andrоid et iOS).",
+        "Cоmpréhеnsiоn аpprоfоndiе du framewоrk Fluttеr аvec appliсatiоn des prinсipes de base, nоtаmment l'idée que \"Tоut еst un Widget\", pоur concevoir dеs interfaces modernes, dynamiques et еffiсaсes."
+      ]
+    },
+    {
+      "poste": "Responsable plateforme web etformateur",
+      "organisation": "à Sabotsy Namehana – 14 Novembre 2025 - 14 Janvier 2026",
+      "missions": [
+        "Maintenance site web de NosyLand et SPA Roquemaure",
+        "CMS : Wordpress"
+      ]
+    },
+    {
+      "poste": "DevFest 2025 Haсkathоn",
+      "organisation": "à Antsirabe, Vakinankaratra – 18-19 Octobre 2025",
+      "missions": [
+        "Élabоrаtiоn еt mise еn œuvrе d'un système intеlligеnt dédié à la gestiоn des présences еt à lа détесtiоn d'intrusiоns, utilisаnt la tесhnоlоgiе de recоnnаissаnсe faсialе (IA – faсe_recоgnitiоn)",
+        "Front-end : Bооtstrap",
+        "Back-end : Flask (Pythоn) et PostgreSQL"
+      ]
+    },
     {
       "poste": "Développeur web FullStack assisté par IA",
       "organisation": "à Betsizaraina Avaradrano Madagascar",
@@ -41,9 +84,9 @@
   "formation": "Master II en Génie Logiciel et Base de Données — ENI de l'Université de Fianarantsoa",
   "objectif": "Je transforme les idées en solutions digitales innovantes, robustes et accessibles, en mettant l’accent sur la pérennité, l’autonomie technologique et l’impact utilisateur.",
   "competences": {
-    "frontend": ["HTML5","CSS3","SCSS/SASS","Bootstrap","Bulma","Tailwind/Shadcn","jQuery","JavaScript/JSX","Axios","Vue.js","Angular","React","TypeScript/TSX","XMLHttpRequest/AJAX/fetch","marked.js","highlight.js"],
-    "backend": ["PHP","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Django","Python","jPython","Odoo","API REST", "JAVA", "Spring boot"],
+    "frontend": ["HTML5","CSS3","SCSS/SASS","Bootstrap","Bulma","Tailwind/Shadcn","jQuery","JavaScript/JSX","Axios","Vue.js","Angular","React","TypeScript/TSX","XMLHttpRequest/AJAX/fetch","marked.js","highlight.js","markdown-it.js","toast.js","Shadcn"],
+    "backend": ["PHP","PDO","cURL","CodeIgniter 3.1.13","CodeIgniter 4.0.x - 4.5.x+","Laravel 8+","Symfony 7","Node.js","Express.js","Python","Django","FastAPI","jPython","Pandas","NumPy","matplotlib","scikit-learn","Pillow","Beautifulsoup","Sqlalchemy","Uvicorn","Odoo","API REST", "JAVA", "Spring boot", "C/C++/C#", "Go", "Ruby", "Rust"],
     "bdd": ["MariaDB","MySQL","SQLite","PostgreSQL","mongoDB", "Oracle","Supabase (Services As A Backend on cloud)"],
-    "autres": ["Git/GitHub/GitLab/Ungit", "C/C++/C#", "Go", "Ruby", "Rust","Docker", "JIRA","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","PDO","cURL","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom/Google photos/Google Search Console/Google Agenda/Google forms/Google NotebookLM","Markdown/MDX","jsonplaceholder.typicode.com"]
+    "autres": ["Git/GitHub/GitLab/Ungit","Docker","Windows 7/8/10/11","Linux Debian/Ubumtu/Mint","VMWare/VirtualBox","TeamViewer","openClaw","Hermes","Ollama","Jenkins","JIRA","Trello","UML","SCRUM","XAMPP/Apache/phpMyAdmin","pgAdmin","dbForge Studio","SQLiteStudio","Console MySQL/Console Oracle/Console PostgreSQL/Console SQLite (Console or Terminal)","CodeSandbox","Hugo (GoLang)","Google Docs/Google Sheets/Google Slides/Google Classroom/Google photos/Google Search Console/Google Agenda/Google forms/Google NotebookLM","Markdown/MDX","jsonplaceholder.typicode.com"]
   }
 }

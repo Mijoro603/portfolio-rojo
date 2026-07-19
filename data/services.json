@@ -21,6 +21,6 @@
   },
   {
     "titre": "Prêt à collaborer ?",
-    "description": "<a href='contact.html' class='button is-link has-text-weight-semibold mt-4 mb-2 py-6' style='text-transform: uppercase !important;'>Contactez-moi dès maintenant<br> et transformons vos idées<br> en solutions concrètes</a>"
+    "description": "<a href='#contact' class='button is-link has-text-weight-semibold mt-4 mb-2 py-6' style='text-transform: uppercase !important;'>Contactez-moi dès maintenant<br> et transformons vos idées<br> en solutions concrètes</a>"
   }
 ]
